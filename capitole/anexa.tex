@@ -1,0 +1,79 @@
+\newpage
+\section{Anexa}
+
+Exemplu simplificat de element motion body în fișierul .mdef:
+\lstset{language=XML}
+\begin{lstlisting}
+<MotionBody Name="m1">
+    <MassAndInertia>
+        <TransformationMatrix>
+            <Origin>
+                <X Unit="in" Value="-7.58042829409448870592e+00"/>
+                <Y Unit="in" Value="4.23044650011811071977e+01"/>
+                <Z Unit="in" Value="3.44301163838582695575e+01"/>
+            </Origin>
+        </TransformationMatrix>
+    </MassAndInertia>
+</MotionBody>
+\end{lstlisting}
+Exemplu simplificat de joint:
+
+\lstset{language=XML}
+\begin{lstlisting}
+<Joint Name="u_jt_shock_l" Type="Cylindrical">
+    <Action>
+        <SelectedMotionBody Name="shock_cyl_l"/>
+        <TransformationMatrix>
+            <Origin>
+                <X Unit="in" Value="-4.14178975641839031141e+00"/>
+                <Y Unit="in" Value="2.03613060274620565338e+01"/>
+                <Z Unit="in" Value="4.14651875259415945152e+01"/>
+            </Origin>
+        </TransformationMatrix>
+    </Action>
+    <Base>
+        <SelectedMotionBody Name="bell_crank_l"/>
+        <TransformationMatrix>
+            <Origin>
+                <X Unit="in" Value="-4.14178975641839031141e+00"/>
+                <Y Unit="in" Value="2.03613060274620565338e+01"/>
+                <Z Unit="in" Value="4.14651875259415945152e+01"/>
+            </Origin>
+        </TransformationMatrix>
+        <SnapMotionBodies Value="false"/>
+    </Base>
+    <DisplayScale Value="1.00000000000000000000e+00"/>
+</Joint>
+\end{lstlisting}
+
+Exemplu de connector:
+
+\lstset{language=XML}
+\begin{lstlisting}
+<Spring Name="S001" Type="MotionBody">
+    <Action>
+        <SelectedMotionBody Name="shock_rod_l"/>
+        <TransformationMatrix>
+            <Origin>
+                <X Unit="in" Value="4.97282173372801139521e+00"/>
+                <Y Unit="in" Value="2.22172095074280626648e+01"/>
+                <Z Unit="in" Value="3.98239507981948648307e+01"/>
+            </Origin>
+        </TransformationMatrix>
+    </Action>
+    <Base>
+        <SelectedMotionBody Name="shock_cyl_l"/>
+        <TransformationMatrix>
+            <Origin>
+                <X Unit="in" Value="1.13657023776269738846e-01"/>
+                <Y Unit="in" Value="2.10778191616462606817e+01"/>
+                <Z Unit="in" Value="4.04163897920995651702e+01"/>
+            </Origin>
+        </TransformationMatrix>
+    </Base>
+</Spring>
+\end{lstlisting}
+
+Tag-urile Action si Base de la joint is connector arata motion body-urile legate.
+
+Toate elementele au o legătura strânsa iar buna funcționalitate a aplicației tine de structura fișierului.

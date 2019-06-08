@@ -1,0 +1,65 @@
+\newpage
+\section{Grafica turtle}
+
+Este o modalitate de desenare care se bazează pe câteva rutine simple. Ne putem imagina ca fiind un cursor care desenează linii drepte într-un plan cartezian. 
+Cursorul are trei atribute: o locație, o orientare (sau o direcție) și un pix. Pixul are, de asemenea, atribute: culoare, lățime și stare(pornit / oprire).\newline
+
+Cursorul se muta cu comenzi care sunt relative la poziția sa, cum ar fi "muta înainte 10 pixeli" și "rotiți cu 90 de grade". 
+Pixul purtat de cursor poate fi de asemenea controlat, având posibilitatea de a ii schimba culoarea sau lățimea.\newline
+
+Un sistem complet de grafica necesita un flux de control, proceduri si recursivitate. Din aceste metode se pot construi forme mai complexe, cum ar fi pătrate, triunghiuri, cercuri și alte figuri compuse. 
+Ideea de grafica turtle, de exemplu, este utilă într-un sistem Lindenmayer pentru generarea de fractali.\newline
+
+Geometria graficii turtle funcționează oarecum diferit față de geometria carteziană, 
+fiind bazată în primul rând pe noțiunea de vector (direcția relativă și distanța față de punctul de pornire).\newline
+
+\subsection{Aplicare}
+
+\lstset{language=C++}
+\begin{lstlisting}
+    class Turtle
+    {
+    public:
+        Turtle(double x, double y, double dir);
+        void rotate(double angle);
+        void forward(double length, bool draw = true);
+        void save();
+        void load();
+        Path getPath()const;
+    private:
+        double x,y,dir;
+        Path path;
+    };
+\end{lstlisting}
+
+De exemplu pentru a desena un triunghi echilateral cu lungimea laturilor de 100 de unitati.
+
+\lstset{language=C++}
+\begin{lstlisting}
+    forward(100);
+    rotate(PI/3);
+    forward(100);
+    rotate(PI/3);
+    forward(100)
+\end{lstlisting}
+
+Fiecare comanda schimba starea Turtle-ului si a traseului desenat. 
+Cele 3 comenzi de forward desenează laturile triunghiului de lungime 100, adăugând latura la traseul total parcurs. 
+Comenzile de rotate schimba direcția de desenare cu 60 de grade (180/3=60). 
+Dupa ultima comand de forward pixul se afla în punctul inițial de desenare, dar datorita lipsei unei comenzi rotate de 60 de grade, 
+direcția de desenare este diferita de cea inițiala.\newline
+
+Folosind structuri repetitive putem abstractiza metoda de desenare. De exemplu pentru desenarea unui poligon regulat convex:
+
+\begin{lstlisting}
+    polygon(nrOfEdges){
+    for(nrOfEdges):
+        forward(2*PI/nrOfEdges);
+        rotate(2*PI/nrOfEdges);	
+    }
+\end{lstlisting}
+
+Pentru nrOfEdges=3 avem din nou un triunghi echilateral, pentru nrOfEdges=4 avem un pătrat, și asa mai departe. 
+Folosind un nrOfEdges destul de mare, lungimea laturii scade si  putem ajunge la o forma care într-un spațiu discret 
+este similara cu un cerc. Extinzând aceste metode elementare de desenare putem ajunge la modalități de desenare pentru simboluri simple. 
+(ex desenarea proiecției unui cilindru într-un plan 2D). 

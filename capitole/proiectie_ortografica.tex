@@ -1,0 +1,48 @@
+\newpage
+\section{Proiectie ortografica}
+
+Proiecția ortografica (sau proiecția ortogonala) este o modalitate de a reprezenta un model tridimensional  
+într-un spațiu bidimensional. Este o forma de proiecție paralela, în care toate liniile de proiecție sunt ortogonale 
+cu planul de proiecție.\newline
+
+Termenul ortografic este uneori rezervat în mod specific pentru reprezentări ale obiectelor în care axele principale 
+sau planurile obiectului sunt de asemenea paralele cu planul de proiecție, dar acestea sunt mai bine cunoscute 
+ca proiecții multiview. Mai mult, atunci când planurile sau axele principale ale unui obiect într-o proiecție 
+ortografică nu sunt paralele cu planul de proiecție, dar sunt înclinate mai degrabă pentru a descoperi mai 
+multe laturi ale obiectului, proiecția se numește o proiecție axonometrică. Subtipurile de proiecție multiview 
+includ planuri, elevații și secțiuni. Subtipurile de proiecții axonometrice includ proiecții izometrice, dimetrice și trimetrice. \newline
+
+O proiecte ortografica simpla, pe planul \(z=0\) poate fi definita de urmatoarea matrice:
+
+\[
+P=
+  \begin{bmatrix}
+    1 & 0 & 0 \\
+    0 & 1 & 0 \\
+    0 & 0 & 0 
+  \end{bmatrix}
+\]
+
+Pentru fiecare punct \(v=(v_x,v_y,v_z)\), punctul transformat ar fi:
+
+\[
+P_v=
+  \begin{bmatrix}
+    1 & 0 & 0 \\
+    0 & 1 & 0 \\
+    0 & 0 & 0 
+  \end{bmatrix}
+  \begin{bmatrix}
+    v_x  \\
+    v_y  \\
+    v_z  
+  \end{bmatrix}
+  =
+  \begin{bmatrix}
+    v_x  \\
+    v_y  \\
+    0  
+  \end{bmatrix}
+\]
+
+

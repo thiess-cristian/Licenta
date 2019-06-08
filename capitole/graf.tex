@@ -1,0 +1,103 @@
+\newpage
+\section{Graf}
+Un graf este o structura formata din obiecte în care sunt puse în evidenta legăturile dintre acele obiecte. 
+Obiectele corespund unor abstracții matematice numite într-un graf noduri/vârfuri (numite și puncte) și fiecare legătură 
+dintre perechile de obiecte asociate se numește muchie (numită și arc sau linie, prin care este și reprezentată). 
+De obicei, un graf este reprezentat în formă schematică ca un set/grup de puncte pentru noduri, iar aceste sunt unite două 
+câte două de linii sau curbe pentru muchii. Grafurile reprezintă unul dintre obiectele de studiu în matematica discretă. 
+Muchiile pot fi orientate/directe sau neorientate/nedirecte.\newline
+
+Din punct de vedere matematic un graf este o pereche \(G=(V,E)\), unde \(V\) este un set de elemente numite noduri, iar \(E\) reprezinta un set de perechi de noduri, numite noduri.
+Un graf vid este un graf în care mulțimea nodurilor \(V\) este vida (implicit și mulțimea muchiilor \(E\) este vida).
+Ordinul unui graf reprezinta numărul de noduri, notat cu \(|V|\). Mărimea unui graf este numărul de muchii \(|E|\).
+Gradul unui nod este numărul de muchii care sunt incidente cu el.
+Într-un graf de ordin \(n\), gradul maxim al oricărui nod este de \(n-1\), iar numărul maxim de muchii este \(n(n-1)/2\).
+
+\subsection{Multigraf}
+
+Un multigraf este o generalizare în care oricare doua noduri pot avea mai multe muchii intre ele. Acele muchii sunt numite și muchii paralele sau muchii multiple.
+Exista doua noțiuni distincte despre muchii paralele:\newline
+
+\begin{itemize}
+\item Muchii fără identitate: identitatea unei muchii tine de cele doua noduri de care aparține. 
+In unele cazuri nevoia de a distinge muchii multiple dintre doua noduri poate lipsi, iar acele muchii sunt considerate ca o 
+singura entitate.\newline
+\item Muchii cu identitate: în acest caz fiecare muchie este considerata ca fiind o primitiva, la fel ca nodurile, 
+iar în cazul în care intre doua noduri exista mai multe muchii, fiecare dintre ele este considerata fiind o entitate distincta.\newline
+\end{itemize}
+
+Definitie matematica:\newline
+
+\begin{itemize}
+\item Multigraf neorientat, cu muchii fara identitate: 
+\(G=(V,E)\) unde:\newline 
+\(V\) este un set de noduri \newline 
+\(E\) este un multiset de perechi de noduri, numite muchii.
+    
+\item Multigraf neorientat, cu muchii cu identitate:
+\(G=(V,E,r)\), unde:\newline
+\(V\) este un set de noduri\newline
+\(E\) este un set de muchii\newline
+\(r : E → \{\{x,y\} : x, y \in V\}\)
+
+\end{itemize}
+
+\subsection{Graf planar}
+
+Un graf planar este un graf care poate fi incorporat într-un plan, adică un graf care poate fi desenat astfel încât 
+marginile sale sa se intersecteze doar în noduri. Cu alte cuvinte, muchiile grafului sa nu se suprapună.\newline
+
+Matematicianul polonez Kazimierz Kuratowski a caractetizat idea de graf planar prin următoarea teoremă:
+Un graf finit este planar dacă și numai dacă nu conține un subgraf care este o subdiviziune a grafului complet \(K_5\) sau a grafului complet bipartit \(K_{3,3}\).
+O subdiviziune a unui graf rezulta din inserarea a oricâte noduri într-o muchie.\newline
+
+O alta modalitate de a descrie un graf planar este prin teorema lui Wagner, exprimata în legătura cu noțiunea de graf minor:
+Un graf finit este planar dacă și numai dacă și numai dacă nu conține grafurile \(K_5\) sau \(K_{3,3}\) ca graf minor.
+Un minor al unui graf rezulta prin contractarea unei muchii într-un nod, fiecare vecin al nodului original devenind vecin cu nodul nou.\newline
+
+Alte criterii de planaritate:\newline
+In practica este dificil sa folosim teorema lui Kuratowski pentru a decide într-un mod eficient dacă un graf este planar sau nu. 
+Exista și alți algoritmi pentru rezolvarea acestei probleme, pentru un graf cu n noduri cu o complexitate de \(O(n)\).
+
+Un graf simplu  cu v>=3 noduri, e muchii și f fete, trebuie sa îndeplinească următoarele condiții pentru a fi planar:\newline
+Teorema 1: e<=3v-6 \newline
+Teorema 2: dacă nu sunt cicluri de lungime 3, atunci e<=2v-4 \newline
+Teorema 3: f<=2v-4 \newline
+
+Formula lui Euler: \newline
+Formula lui Euler afirmă că dacă un graf planar, finit, conectat, este desenat într-un plan și v este numărul de vârfuri, 
+e este numărul de muchii și f este numărul de fețe (regiuni marcate de muchii , inclusiv regiunea exterioară, infinit de mare)
+\[v-e+f=2\]
+
+Ca o ilustrare, în graful fluture dat mai sus, v = 5, e = 6 și f = 3. În general, dacă proprietatea este valida 
+pentru toate grafurile planare cu f fete, orice modificare a grafului care ar crea o față suplimentară, graful 
+fiind în continuare planar ar fi și v - e + f invariant. Din moment ce proprietatea este valid pentru toate grafurile 
+cu f = 2, prin inducție matematică este valabilă pentru toate cazurile. Formula lui Euler poate fi demonstrata și în 
+modul următor: dacă graful nu este un arbore, șterge o muchie care completează un ciclu. Astfel scade atât e, cât și 
+f cu unul, lăsând v - e + f constantă. Repetați până când graficul rămas este un arbore; copacii au v = e + 1 și f = 1, 
+producând v - e + f = 2.\newline
+
+Într-un graf planar, simplu, conectat, simplu, orice față (cu excepția celei exteriorare) este marginita de cel puțin trei 
+muchii și fiecare muchie se afla intre cel mult 2 fete; folosind formula lui Euler, se poate arăta apoi că aceste grafuri  
+sunt sparse în sensul că dacă v ≥ 3: 
+\[e<=3v-6\]
+
+\subsection{Aplicare}
+
+Grafurile pot fi folosite pentru modelarea relațiilor și proceselor într-un sistem fizic, biologic, 
+social sau informatic. Multe probleme practice pot fi reprezentate prin grafuri. In domeniul informaticii 
+grafurile pot fi folosite pentru a reprezenta rețele de comunicare, organizarea datelor, dispozitive computerizate, 
+fluxul de calcul, etc. De exemplu și un site web poate fi reprezentat printr-un graf, paginile web fiind nodurile 
+iar legăturile dintre ele, link-urile, fiind muchiile. O abordare similara poate fi proiectate pentru multe alte domenii, 
+precum ingineria mecanica unde putem exprima relațiile dintre mai multe elemente mecanice printr-un graf. Dezvoltarea 
+algoritmilor pentru a gestiona grafuri este, prin urmare, de interes major în domeniul informaticii.
+
+
+
+
+
+
+
+
+
+
