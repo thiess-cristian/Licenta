@@ -1,0 +1,14 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "turtle_graphics.xdv" "turtle_graphics.pdf" "turtle_graphics" 0
+  "turtle_graphics.xdv" 1560773387 2040 76c2aee04fc0cb51ec70f28143a29160 "xelatex"
+  (generated)
+  "turtle_graphics.pdf"
+["xelatex"] 1560773388 "d:/fac/licenta/capitole/turtle_graphics.tex" "turtle_graphics.xdv" "turtle_graphics" 1560773388
+  "C:/Users/Cristi/AppData/Local/MiKTeX/2.9/miktex/data/le/xetex/xelatex.fmt" 1559719042 16368416 5f3a91000b64b50f0c5e01325855503a ""
+  "d:/fac/licenta/capitole/turtle_graphics.tex" 1560773381 4892 336b90709a7577e5e6d16eec633ac3b7 ""
+  "turtle_graphics.aux" 1560773388 8 a94a2480d3289e625eea47cd1b285758 "xelatex"
+  "turtle_graphics.tex" 1560773381 4892 336b90709a7577e5e6d16eec633ac3b7 ""
+  (generated)
+  "turtle_graphics.xdv"
+  "turtle_graphics.log"
+  "turtle_graphics.aux"

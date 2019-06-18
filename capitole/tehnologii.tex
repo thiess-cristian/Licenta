@@ -4,34 +4,34 @@
 
 C++ este un limbaj de programare creat de Bjarne Stroustrup ca o extensie a limbajului C, inițial fiind numit "C cu clase". 
 Limbajul s-a extins semnificativ, C++ modern având caracteristici orientate pe obiect, de programare generica și funcțională 
-precum și accesul la manipularea memoriei. Este aproape întotdeauna implementat ca limbaj compilat, iar mulți furnizori oferă 
+precum și accesul la manipularea memoriei. Este de obicei implementat ca limbaj compilat, iar mulți furnizori oferă 
 compilatoare C ++, inclusiv LME, LLVM, Microsoft, Intel și IBM, astfel încât limbajul sa poată fi compilat pe mai multe platforme.\newline 
 
-A fost conceput cu o înclinare către programarea sistemelor și programarea embeded, software limitat de resurse și sisteme mari, 
-punând în prim plan performanta, eficienta și flexibilitatea ca și caracteristici esențiale ale limbajului. C++ s-a dovedit 
-fiind util și în alte contexte precum aplicații desktop, servere, centrali telefonice.\newline
+A fost conceput cu o înclinare către programarea sistemelor și programarea embeded, pentru software limitat de resurse și sisteme mari, 
+punând în prim plan performanța, eficiența și flexibilitatea ca și caracteristici esențiale ale limbajului. C++ s-a dovedit 
+fiind util și în alte contexte precum aplicații desktop, servere, centrale telefonice.\newline
 
-C ++ este standardizat de către Organizația Internațională pentru Standardizare (ISO), cu cea mai recentă versiune standard 
-publicată de ISO în decembrie 2017 ca ISO / IEC 14882: 2017 (informal cunoscut sub numele de C ++ 17). Înainte de standardizarea 
-inițială din 1998, C ++ a fost dezvoltat de omul de știință danez Bjarne Stroustrup la Bell Labs din 1979, ca extensie a 
+C++ este standardizat de către Organizația Internațională pentru Standardizare (ISO), cu cea mai recentă versiune standard 
+publicată de ISO în decembrie 2017 ca ISO / IEC 14882: 2017 (informal cunoscut sub numele de C++17). Înainte de standardizarea 
+inițială din 1998, C++ a fost dezvoltat de Bjarne Stroustrup la Bell Labs din 1979, ca extensie a 
 limbajului C; el dorea un limbaj eficient și flexibil similar C, care să ofere și caracteristici de nivel înalt pentru organizarea 
 programelor.\newline
 
 \subsection{Qt}
 
-Qt este un toolkit open-source și gratis folosit la crearea de interfețe grafice dar aplicații cross-platform care 
+Qt este un toolkit open-source și gratis folosit la crearea de interfețe grafice pentru aplicații cross-platform care 
 pot fi rulate pe diverse platforme hardware si software precum Linux, Windows, macOS, Adroid sau sisteme embeded, 
-cu puține sau nici o schimbare in codul de baza dar păstrând funcționalitatile native. Qt este momentan dezvoltat 
+cu puține sau fară schimbari in codul de baza dar păstrând funcționalitățile native. Qt este momentan dezvoltat 
 de The Qt Company sub Qt Project prin guvernare open-source, în care sunt implicate mai multe organizații și dezvoltatori 
-individuali cu scopul de aduce noi funcționalități Qt-ului.\newline
+individuali cu scopul de aduce noi funcționalități librăriei Qt.\newline
 
 Majoritatea programelor GUI dezvoltate cu Qt au o interfață nativa similara cu cea a sistemului pe care este rulat. 
-Aplicații precum unelte ce pot fi rulate din linia de comand sau console pentru servere, fără interfață grafica pot fi 
+Aplicații precum unelte ce pot fi rulate din linia de comandă sau console pentru servere, fără interfață grafica pot fi 
 dezvoltate în Qt. Un exemplu fiind framework-ul web Cutelyst.\newline
 
-Qt suporta diverse compilere ca GCC C++ și MSVC de la Visual Studio. Qt conține și Qt Quick, care include propriul 
+Qt suportă diverse compilere precum GCC C++ și MSVC de la Visual Studio. Qt conține și Qt Quick, care include propriul 
 limbaj de scriptare numit QML, care a facilitat dezvoltarea rapida a aplicațiilor mobile păstrând opțiunea de a scrie 
-logica în C++ pentru cele mai bune rezultate în legătura cu performanta.\newline
+logică în C++ pentru cele mai bune rezultate în legătura cu performanta.\newline
 
 Alte funcționalități includ acces la baze de date prin SQL, cititor de XML, cititor de JSON, managementul thread-urilor.\newline
 
@@ -45,7 +45,7 @@ Qt este construit pe aceste concepte:
 
     \item Signals si slots
     
-    Este un concept introdus în Qt pentru comunicarea intre obiecte, având la baza conceptul șablonului de proiectare observer 
+    Este un concept introdus în Qt pentru comunicarea între obiecte, având la baza conceptul șablonului de proiectare observer 
     evitând cod boilerplate. Obiectele ce țin GUI pot transmite semnale ce conțin informații relative la un eveniment care pot 
     fi captate de alte obiecte care conțin socluri.
 
@@ -63,14 +63,14 @@ Qt este construit pe aceste concepte:
 
 \subsubsection{Graphics view framework}
 
-Graphics View pune la disozitie un mediu în care se pot controla și se poate interacționa cu un număr mare de elemente grafice 2D. 
+Graphics View pune la disoziție un mediu în care se pot controla și se poate interacționa cu un număr mare de elemente grafice 2D. 
 Framework-ul include și o arhitectura de propagarea a evenimentelor care facilitează interacțiunea cu elementele din scena. 
 Elementele suporta evenimente legate de taste, mișcarea mouse-ul, evenimente de dublu click, etc. \newline
 
-Graphics view folosește un arbore BSP (Binary Space Partitioning) care oferă o accesare rapida la oricare element, astfel se poate 
+Graphics View folosește un arbore BSP (Binary Space Partitioning) care oferă o accesare rapida la oricare element, astfel se poate 
 vizualiza și interacționa cu scene cu milioane de elemente grafice în timp real.\newline
 
-Graphics view furnizează o abordare bazate pe elemente a programării model-view. Mai multe view-uri pot observa o scena, 
+Graphics View furnizează o abordare bazate pe elemente a programării model-view. Mai multe view-uri pot observa o scena, 
 iar scena conține elementele grafice compuse dintr-o varietate de forme geometrice.\newline
 
 \begin{itemize}
@@ -83,18 +83,18 @@ iar scena conține elementele grafice compuse dintr-o varietate de forme geometr
         \item Setarea stării unui elemente, ex: selectie, focus.
     \end{itemize}
 
-    Scena reprezinta un container pentru obiecte de tip QGraphicsScene. Elementele sunt adăugate prin funcția 
+    Scena reprezinta un container pentru obiecte de tip \verb|QGraphicsScene|. Elementele sunt adăugate prin funcția 
     \verb|QGraphicsScene::addItem()|, iar apoi pot fi accesate folosind una din multele funcții de returnare.Functia 
-    QGraphicsScene::items() și supraincarcariile ei, returnează toate elementele grafice care se intersectează sau 
-    care sunt conținute de un punct, un dreptunghi, un poligon sau un vector. QGraphicsScene::itemAt() returnează elementul 
+    \verb|QGraphicsScene::items()| și supraincarcariile ei, returnează toate elementele grafice care se intersectează sau 
+    care sunt conținute de un punct, un dreptunghi, un poligon sau un vector. \verb|QGraphicsScene::itemAt()| returnează elementul 
     de la cel mai înalt nivel de suprapunere într-un anumit punct. Toate funcțiile returnează elementele într-o ordine 
     descendenta în legătura cu eventuale suprapuneri.\newline
 
     \begin{lstlisting}[language=C++]
-        QGraphicsScene scene;
-        QGraphicsRectItem *rect = scene.addRect(QRectF(0, 0, 100, 100));
-
-        QGraphicsItem *item = scene.itemAt(50, 50);
+    QGraphicsScene scene;
+    QRectF rectangle(0, 0, 100, 100);
+    QGraphicsRectItem *rectItem = scene.addRect(rectangle);
+    QGraphicsItem *item = scene.itemAt(50, 50);
     \end{lstlisting}
 
     Arhitectura de propagare a evenimentelor a clasei QGraphicsScene asigura transmiterea evenimentelor către 
@@ -102,10 +102,10 @@ iar scena conține elementele grafice compuse dintr-o varietate de forme geometr
     scena transmite mai departe evenimentul către toate elementele care se afla în acel punct.\newline
 
     Scena totodată poate controla starea elementelor, de exemplu dacă elementele sunt selectate, sau sunt în focus relativ cu 
-    evenimente de la tastatura. Mai multe elemente pot fi selectate folosind QGraphicsScene::setSelectionArea(). 
-    Pentru a accesa toate elementele selectate se poate folosi QGraphicsScene::selectedItems(). O alta stare tratata este cea 
-    de focus pe un anumit element. Se poate seta prin apelarea funcției QGraphicsScene::setFocusItem() sau QGraphicsItem::setFocus(), 
-    iar pentru a accesa elementul curent în focus QGraphicsScene::focusItem().\newline
+    evenimente de la tastatura. Mai multe elemente pot fi selectate folosind \verb|QGraphicsScene::setSelectionArea()|. 
+    Pentru a accesa toate elementele selectate se poate folosi \verb|QGraphicsScene::selectedItems()|. O alta stare tratata este cea 
+    de focus pe un anumit element. Se poate seta prin apelarea funcției \verb|QGraphicsScene::setFocusItem()| sau \verb|QGraphicsItem::setFocus()|, 
+    iar pentru a accesa elementul curent în focus \verb|QGraphicsScene::focusItem()|.\newline
 
     \item View
     
@@ -127,13 +127,13 @@ iar scena conține elementele grafice compuse dintr-o varietate de forme geometr
     
     Folosind matricea de transformare, QGraphicsView::transform(), view-ul poate scala sau rotii scena. 
     Pentru convenienta QGraphicsView oferă funcții pentru convertirea la, sau de la, coordonatele scenei la 
-    coordonatele view-ului. QGraphicsView::mapToScene() si QGraphicsView::mapFromScene().\newline
+    coordonatele view-ului. \verb|QGraphicsView::mapToScene()| si \verb|QGraphicsView::mapFromScene()|.\newline
 
     \item Elementul
     
     QGraphicsItem este clasa de baza pentru elementele grafice dintr-o scena. Graphics View oferă câteva elemente grafice 
-    standard pentru forme simple, precum dreptunghi  (QGraphicsRectItem), elipsa (QGraphicsEllipseItem), dar și text 
-    (QGraphicsTextItem). De obicei utilizatorul specializează clasa de baza prin moștenire pentru a obține elemente 
+    standard pentru forme simple, precum dreptunghi  (\verb|QGraphicsRectItem|), elipsa (\verb|QGraphicsEllipseItem|), dar și text 
+    (\verb|QGraphicsTextItem|). De obicei utilizatorul specializează clasa de baza prin moștenire pentru a obține elemente 
     grafice de forme diferite.\newline
 
     QGraphicsItem suporta următoarele functionalitati:
@@ -145,27 +145,31 @@ iar scena conține elementele grafice compuse dintr-o varietate de forme geometr
         \item detecție de coliziuni
     \end{itemize}
 
-    Toate elementele se afla într-un sistem de coordonate local, și la fel ca QGraphicsView, conțin funcții pentru 
-    convertirea la coordonatele scenei. Totodată la fel ca și QGraphicsView sistemul de coordonate poate fi transformat 
-    folosind o matrice,  QGraphicsItem::transform(). Acest lucru este folositor la scalarea sau rotirea individuala.\newline
+    Toate elementele se afla într-un sistem de coordonate local, și la fel ca \verb|QGraphicsView|, conțin funcții pentru 
+    convertirea la coordonatele scenei. Totodată la fel ca și \verb|QGraphicsView| sistemul de coordonate poate fi transformat 
+    folosind o matrice, \verb|QGraphicsItem::transform()|. Acest lucru este folositor la scalarea sau rotirea individuala.\newline
 
     Elementele pot conține si alte element (copii). Transformările părintelui sunt moștenite de toți copiii.\newline
     
-    QGraphicsItem suporta și detecție de coliziuni, prin funcțiile QGraphicsItem::shape() și QGraphicsItem::collidesWith(), 
+    \verb|QGraphicsItem| suporta și detecție de coliziuni, prin funcțiile \verb|QGraphicsItem::shape()| și \verb|QGraphicsItem::collidesWith()|, 
     ambele funcții virtuale care pot fi suprascrise.\newline
 \end{itemize}
 
 \subsection{Aplicare}
 
-Majoritatea acestor noțiuni au fost folosite la dezvoltarea aplicație. 
-Fiecare tab deschis conține un QGraphicsView cu o scena cu toate elementele. 
+Majoritatea acestor noțiuni au fost folosite la dezvoltarea aplicație, interfața grafica a aplicatie avand la baza Qt. 
+Fiecare tab deschis conține un \verb|QGraphicsView| cu o scena cu toate elementele. 
 View-ul este dinamic iar utilizatorul poate interacționa cu el, prin zoom sau prin schimbarea întregii scene, 
-selectând diferite perspective. Fiecare element grafic din aplicație, moștenește clasa de baza QGraphicsItem, 
+selectând diferite perspective.\newline 
+
+Fiecare element grafic din aplicație, moștenește clasa de baza QGraphicsItem, 
 fiind specializat pentru diferitele tipuri care trebuie afișate. De exemplu obiectele de tip Motion body sunt 
 afișate ca dreptunghiuri albastre de diferite forme în funcție de datele din fișierul sursa. Aceste elemente 
 pot fi mutate cu mouse-ul. Elementele de tip Motion body pot fi conectate de alte elemente Motion body fie prin 
 printr-un Joint sau Connector. La fel pentru Joint și Connector s-au folosit implementări separate pentru afișarea 
-diferitelor tipuri. Utilizatorul poate interacționa cu toate elementele prin click-dreapta pentru a deschide un meniu de context. 
+diferitelor tipuri.\newline 
+
+Utilizatorul poate interacționa cu toate elementele prin click-dreapta pentru a deschide un meniu de context. 
 Prin acest meniu el poate schimba culoarea, reseta culoarea sau deschide un panou în care sunt afișate informații adiționale 
 elementului.\newline
 

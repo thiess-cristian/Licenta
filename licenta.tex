@@ -4,9 +4,26 @@
 \usepackage{enumitem}
 \usepackage{listings}
 \usepackage{amsmath}
+\usepackage{float}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{indentfirst}
+\usepackage{gensymb}
+\usepackage{subfig}
+
+\algnewcommand\algorithmicforeach{\textbf{for each}}
+\algdef{S}[FOR]{ForEach}[1]{\algorithmicforeach\ #1\ \algorithmicdo}
+
+\setlength\parindent{2.5em}
+%\setlength\parskip{1.3\baselineskip} 
+
 
 \begin{document}
 \setmainfont[Ligatures=TeX]{UTSans-Regular}
+
+\tableofcontents
+\newpage
+
 
 \input{capitole/coperta.tex}
 \input{capitole/abstract.tex}
@@ -18,6 +35,7 @@
 \input{capitole/graf.tex}
 \input{capitole/force_directed.tex}
 \input{capitole/tehnologii.tex}
+\input{capitole/simcenter.tex}
 \input{capitole/functionalitati.tex}
 \input{capitole/anexa.tex}
 \input{capitole/bibliografie.tex}

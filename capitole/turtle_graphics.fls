@@ -1,0 +1,9 @@
+PWD d:\fac\licenta\capitole
+INPUT C:\Users\Cristi\AppData\Local\MiKTeX\2.9\miktex\data\le\xetex\xelatex.fmt
+INPUT d:\fac\licenta\capitole\turtle_graphics.tex
+OUTPUT turtle_graphics.log
+INPUT turtle_graphics.aux
+INPUT turtle_graphics.aux
+OUTPUT turtle_graphics.aux
+OUTPUT turtle_graphics.xdv
+INPUT turtle_graphics.aux

@@ -1,5 +1,5 @@
 \newpage
-\section{Proiectie ortografica}
+\section{Proiecția ortografică}
 
 Proiecția ortografica (sau proiecția ortogonala) este o modalitate de a reprezenta un model tridimensional  
 într-un spațiu bidimensional. Este o forma de proiecție paralela, în care toate liniile de proiecție sunt ortogonale 
@@ -11,6 +11,14 @@ ca proiecții multiview. Mai mult, atunci când planurile sau axele principale a
 ortografică nu sunt paralele cu planul de proiecție, dar sunt înclinate mai degrabă pentru a descoperi mai 
 multe laturi ale obiectului, proiecția se numește o proiecție axonometrică. Subtipurile de proiecție multiview 
 includ planuri, elevații și secțiuni. Subtipurile de proiecții axonometrice includ proiecții izometrice, dimetrice și trimetrice. \newline
+
+\begin{figure}[H]
+  \begin{center}
+      \includegraphics[scale=0.5]{imagini/proiectie/ortografica.png}
+      \caption{Proiecția ortografică a unui corp}
+      \label{fig:tabs}
+  \end{center}    
+\end{figure}
 
 O proiecte ortografica simpla, pe planul \(z=0\) poate fi definita de urmatoarea matrice:
 
@@ -45,4 +53,17 @@ P_v=
   \end{bmatrix}
 \]
 
+\subsection{Aplicare}
 
+Acest concept a fost aplicat pentru reprezentarea elementelor care formeaza intregrul model 3D. 
+Setul de date nu contine dimensiunile exacte ale elementelor ci doar punctele de legare cu late elemente si centrul de greutate.
+Prin calcularea punctelor simetrice ale punctelor de legare la centrul de greutate și prin incadrarea unui dreptunghi in jurul lor
+obtinem forma care v-a reprezenta elementul in sine.\newline 
+
+Aplicația conține trei moduri de afișare a modelului, fiecare perspectivă folosind coordonatele \((x,y,z)\) din setul de date 
+eliminand una din ele pentru reprezentarea in 2D:
+\begin{itemize}
+\item Perspectva de deasupra, folosind \((x,y)\)     
+\item Perspectva laterală, folosind \((x,z)\)
+\item Perspectva frontala, folsind \((y,z)\)
+\end{itemize}

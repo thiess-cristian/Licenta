@@ -1,0 +1,175 @@
+PWD d:\fac\licenta
+INPUT C:\Users\Cristi\AppData\Local\MiKTeX\2.9\miktex\data\le\xetex\xelatex.fmt
+INPUT d:\fac\licenta\licenta.tex
+OUTPUT licenta.log
+INPUT D:\pograml files\miktex\tex\latex\base\article.cls
+INPUT D:\pograml files\miktex\tex\latex\base\article.cls
+INPUT D:\pograml files\miktex\tex\latex\base\size12.clo
+INPUT D:\pograml files\miktex\tex\latex\base\size12.clo
+INPUT D:\pograml files\miktex\tex\latex\fontspec\fontspec.sty
+INPUT D:\pograml files\miktex\tex\latex\fontspec\fontspec.sty
+INPUT D:\pograml files\miktex\tex\latex\l3packages\xparse\xparse.sty
+INPUT D:\pograml files\miktex\tex\latex\l3packages\xparse\xparse.sty
+INPUT D:\pograml files\miktex\tex\latex\l3kernel\expl3.sty
+INPUT D:\pograml files\miktex\tex\latex\l3kernel\expl3.sty
+INPUT D:\pograml files\miktex\tex\latex\l3kernel\expl3-code.tex
+INPUT D:\pograml files\miktex\tex\latex\l3kernel\expl3-code.tex
+INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmr10.tfm
+INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmr10.tfm
+INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmr10.tfm
+INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmr10.tfm
+INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmr10.tfm
+INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmr10.tfm
+INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmr10.tfm
+INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmr10.tfm
+INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmr10.tfm
+INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmr10.tfm
+INPUT D:\pograml files\miktex\tex\generic\unicode-data\UnicodeData.txt
+INPUT D:\pograml files\miktex\tex\generic\unicode-data\UnicodeData.txt
+INPUT D:\pograml files\miktex\tex\generic\unicode-data\CaseFolding.txt
+INPUT D:\pograml files\miktex\tex\generic\unicode-data\CaseFolding.txt
+INPUT D:\pograml files\miktex\tex\generic\unicode-data\SpecialCasing.txt
+INPUT D:\pograml files\miktex\tex\generic\unicode-data\SpecialCasing.txt
+INPUT nul:.tex
+INPUT nul:.tex
+INPUT D:\pograml files\miktex\tex\latex\l3kernel\l3xdvipdfmx.def
+INPUT D:\pograml files\miktex\tex\latex\l3kernel\l3xdvipdfmx.def
+INPUT D:\pograml files\miktex\tex\latex\fontspec\fontspec-xetex.sty
+INPUT D:\pograml files\miktex\tex\latex\fontspec\fontspec-xetex.sty
+INPUT D:\pograml files\miktex\tex\latex\base\tuenc.def
+INPUT D:\pograml files\miktex\tex\latex\base\fontenc.sty
+INPUT D:\pograml files\miktex\tex\latex\base\fontenc.sty
+INPUT D:\pograml files\miktex\tex\latex\base\tuenc.def
+INPUT D:\pograml files\miktex\tex\latex\base\tuenc.def
+INPUT D:\pograml files\miktex\tex\latex\fontspec\fontspec.cfg
+INPUT D:\pograml files\miktex\tex\latex\fontspec\fontspec.cfg
+INPUT D:\pograml files\miktex\tex\latex\graphics\graphicx.sty
+INPUT D:\pograml files\miktex\tex\latex\graphics\graphicx.sty
+INPUT D:\pograml files\miktex\tex\latex\graphics\keyval.sty
+INPUT D:\pograml files\miktex\tex\latex\graphics\keyval.sty
+INPUT D:\pograml files\miktex\tex\latex\graphics\graphics.sty
+INPUT D:\pograml files\miktex\tex\latex\graphics\graphics.sty
+INPUT D:\pograml files\miktex\tex\latex\graphics\trig.sty
+INPUT D:\pograml files\miktex\tex\latex\graphics\trig.sty
+INPUT D:\pograml files\miktex\tex\latex\graphics-cfg\graphics.cfg
+INPUT D:\pograml files\miktex\tex\latex\graphics-cfg\graphics.cfg
+INPUT D:\pograml files\miktex\tex\latex\graphics-def\xetex.def
+INPUT D:\pograml files\miktex\tex\latex\graphics-def\xetex.def
+INPUT D:\pograml files\miktex\tex\latex\enumitem\enumitem.sty
+INPUT D:\pograml files\miktex\tex\latex\enumitem\enumitem.sty
+INPUT D:\pograml files\miktex\tex\latex\listings\listings.sty
+INPUT D:\pograml files\miktex\tex\latex\listings\listings.sty
+INPUT D:\pograml files\miktex\tex\latex\listings\lstmisc.sty
+INPUT D:\pograml files\miktex\tex\latex\listings\lstmisc.sty
+INPUT D:\pograml files\miktex\tex\latex\listings\listings.cfg
+INPUT D:\pograml files\miktex\tex\latex\listings\listings.cfg
+INPUT D:\pograml files\miktex\tex\latex\amsmath\amsmath.sty
+INPUT D:\pograml files\miktex\tex\latex\amsmath\amsmath.sty
+INPUT D:\pograml files\miktex\tex\latex\amsmath\amstext.sty
+INPUT D:\pograml files\miktex\tex\latex\amsmath\amstext.sty
+INPUT D:\pograml files\miktex\tex\latex\amsmath\amsgen.sty
+INPUT D:\pograml files\miktex\tex\latex\amsmath\amsgen.sty
+INPUT D:\pograml files\miktex\tex\latex\amsmath\amsbsy.sty
+INPUT D:\pograml files\miktex\tex\latex\amsmath\amsbsy.sty
+INPUT D:\pograml files\miktex\tex\latex\amsmath\amsopn.sty
+INPUT D:\pograml files\miktex\tex\latex\amsmath\amsopn.sty
+INPUT D:\pograml files\miktex\tex\latex\float\float.sty
+INPUT D:\pograml files\miktex\tex\latex\float\float.sty
+INPUT D:\pograml files\miktex\tex\latex\algorithms\algorithm.sty
+INPUT D:\pograml files\miktex\tex\latex\algorithms\algorithm.sty
+INPUT D:\pograml files\miktex\tex\latex\base\ifthen.sty
+INPUT D:\pograml files\miktex\tex\latex\base\ifthen.sty
+INPUT D:\pograml files\miktex\tex\latex\algorithmicx\algpseudocode.sty
+INPUT D:\pograml files\miktex\tex\latex\algorithmicx\algpseudocode.sty
+INPUT D:\pograml files\miktex\tex\latex\algorithmicx\algorithmicx.sty
+INPUT D:\pograml files\miktex\tex\latex\algorithmicx\algorithmicx.sty
+INPUT D:\pograml files\miktex\tex\latex\tools\indentfirst.sty
+INPUT D:\pograml files\miktex\tex\latex\tools\indentfirst.sty
+INPUT D:\pograml files\miktex\tex\latex\was\gensymb.sty
+INPUT D:\pograml files\miktex\tex\latex\was\gensymb.sty
+INPUT D:\pograml files\miktex\tex\latex\subfig\subfig.sty
+INPUT D:\pograml files\miktex\tex\latex\subfig\subfig.sty
+INPUT D:\pograml files\miktex\tex\latex\caption\caption.sty
+INPUT D:\pograml files\miktex\tex\latex\caption\caption.sty
+INPUT D:\pograml files\miktex\tex\latex\caption\caption3.sty
+INPUT D:\pograml files\miktex\tex\latex\caption\caption3.sty
+INPUT licenta.aux
+INPUT licenta.aux
+OUTPUT licenta.aux
+INPUT licenta.toc
+INPUT licenta.toc
+INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmmi12.tfm
+INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmmi8.tfm
+INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmmi6.tfm
+INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmsy10.tfm
+INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmsy8.tfm
+INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmsy6.tfm
+INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmex10.tfm
+INPUT D:\pograml files\miktex\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT D:\pograml files\miktex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmr12.tfm
+INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmr8.tfm
+INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmr6.tfm
+OUTPUT licenta.xdv
+OUTPUT licenta.toc
+INPUT capitole\coperta.tex
+INPUT capitole\coperta.tex
+INPUT capitole\abstract.tex
+INPUT capitole\abstract.tex
+INPUT capitole\istorie.tex
+INPUT capitole\istorie.tex
+INPUT imagini\istorie\bridge.png
+INPUT capitole\data.tex
+INPUT capitole\data.tex
+INPUT capitole\xml.tex
+INPUT capitole\xml.tex
+INPUT capitole\proiectie_ortografica.tex
+INPUT capitole\proiectie_ortografica.tex
+INPUT imagini\proiectie\ortografica.png
+INPUT capitole\turtle_graphics.tex
+INPUT capitole\turtle_graphics.tex
+INPUT D:\pograml files\miktex\tex\latex\listings\lstlang1.sty
+INPUT D:\pograml files\miktex\tex\latex\listings\lstlang1.sty
+INPUT D:\pograml files\miktex\tex\latex\listings\lstlang1.sty
+INPUT D:\pograml files\miktex\tex\latex\listings\lstlang1.sty
+INPUT D:\pograml files\miktex\tex\latex\listings\lstmisc.sty
+INPUT D:\pograml files\miktex\tex\latex\listings\lstmisc.sty
+INPUT D:\pograml files\miktex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT D:\pograml files\miktex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT imagini\turtle\circle.png
+INPUT imagini\turtle\joints.png
+INPUT imagini\turtle\connectors.png
+INPUT capitole\graf.tex
+INPUT capitole\graf.tex
+INPUT imagini\graf\notplanar.png
+INPUT imagini\graf\butterfly.png
+INPUT capitole\force_directed.tex
+INPUT capitole\force_directed.tex
+INPUT capitole\tehnologii.tex
+INPUT capitole\tehnologii.tex
+INPUT capitole\simcenter.tex
+INPUT capitole\simcenter.tex
+INPUT imagini\simcenter\cinematica.png
+INPUT imagini\simcenter\dinamic.png
+INPUT imagini\simcenter\mecanism.png
+INPUT imagini\simcenter\body.png
+INPUT capitole\functionalitati.tex
+INPUT capitole\functionalitati.tex
+INPUT imagini\implementare\tabs.png
+INPUT imagini\implementare\overlapping.png
+INPUT imagini\implementare\graf.png
+INPUT imagini\implementare\searchwindow.png
+INPUT imagini\implementare\info.png
+INPUT imagini\implementare\compare.png
+INPUT imagini\implementare\legend.png
+INPUT imagini\implementare\bigmodel.png
+INPUT imagini\implementare\bigmodelzoom.png
+INPUT capitole\anexa.tex
+INPUT capitole\anexa.tex
+INPUT D:\pograml files\miktex\tex\latex\listings\lstlang1.sty
+INPUT D:\pograml files\miktex\tex\latex\listings\lstlang1.sty
+INPUT D:\pograml files\miktex\tex\latex\listings\lstmisc.sty
+INPUT D:\pograml files\miktex\tex\latex\listings\lstmisc.sty
+INPUT capitole\bibliografie.tex
+INPUT capitole\bibliografie.tex
+INPUT licenta.aux
