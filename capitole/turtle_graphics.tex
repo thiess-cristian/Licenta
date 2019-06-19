@@ -65,13 +65,15 @@ este similara cu un cerc.\newline
 \begin{figure}[H]
     \begin{center}
         \includegraphics[scale=1]{imagini/turtle/circle.png}
-        \caption{Desenarea unei forme similare cu un cerc}
+        \caption{Desenarea unei forme similare cu un cerc \protect\footnotemark}
         \label{fig:tabs}
     \end{center}    
 \end{figure}
 
+\footnotetext{imagine preluata din \cite{turtle}}
+
 Extinzând aceste metode elementare de desenare putem ajunge la modalități de desenare pentru simboluri mai complexe 
-formate din forme geometrice simple. (ex desenarea proiecției unui cilindru într-un plan 2D). \newline
+formate din forme geometrice simple. (ex desenarea proiecției unui cilindru într-un plan 2D, anexa 12.2). \newline
 
 \begin{figure}[H]
     \centering
@@ -83,7 +85,7 @@ formate din forme geometrice simple. (ex desenarea proiecției unui cilindru în
 \end{figure}
 
 
-Pentru imeplementarea mea a acestui concept am adaugat funcțiile save() și load() pentru a eficientiza procesul de desenare.
+Pentru imeplementarea mea a acestui concept am adaugat funcțiile \verb|save()| și \verb|load()| pentru a eficientiza procesul de desenare.
 Funcția save() salveaza starea curentă a clasei, și anume coordonatele x,y și direcția în acel moment. Astfel daca vrem să ne întoarcem 
 într-un punct precedent nu mai este nevoie sa facem pașii necesari sa ne întoarcem in acel punct, ci putem apela direct functia load().\newline
 

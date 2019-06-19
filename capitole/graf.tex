@@ -82,16 +82,18 @@ O subdiviziune a unui graf rezulta din inserarea a oricâte noduri într-o muchi
 
 O alta modalitate de a descrie un graf planar este prin teorema lui Wagner, exprimată în legătura cu noțiunea de graf minor:\newline
  
-Un graf finit este planar dacă și numai dacă nu conține grafurile \(K_5\) sau \(K_{3,3}\) ca graf minor.
+Un graf finit este planar dacă și numai dacă nu conține grafurile \(K_5\) sau \(K_{3,3}\) ca graf minor. (figura \ref{fig:k5k33})
 Un minor al unui graf rezulta prin contractarea unei muchii într-un nod, fiecare vecin al nodului original devenind vecin cu nodul nou.\newline
 
 \begin{figure}[H]
     \begin{center}
         \includegraphics[scale=0.7]{imagini/graf/notplanar.png}        
     \end{center}
-    \caption{Grafurile \(K_5\) si \(K_{3,3}\)}
-    \label{fig:tabs}
+    \caption{Grafurile \(K_5\) si \(K_{3,3}\) \protect\footnotemark}
+    \label{fig:k5k33}
 \end{figure}
+
+\footnotetext{\url{https://www.nomachetejuggling.com/assets/k33andk5.png}}
 
 Alte criterii de planaritate:\newline
 In practica este dificil sa folosim teorema lui Kuratowski pentru a decide într-un mod eficient dacă un graf este planar sau nu. 
@@ -112,13 +114,14 @@ Formula lui Euler afirmă că dacă un graf planar, finit, conectat, este desena
 \begin{figure}[H]
     \begin{center}
         \includegraphics[scale=0.5]{imagini/graf/butterfly.png}
-        \caption{Graf fluture}
-        \label{fig:tabs}
+        \caption{Graf fluture \protect\footnotemark}
+        \label{fig:fluture}
     \end{center}    
 \end{figure}
 
+\footnotetext{\url{https://www.researchgate.net/publication/328308578/figure/fig1/AS:682352216920065@1539696854150/The-butterfly-graph-five-nodes-with-two-node-pairs-connected-by-the-bridging-node-3.png}}
 
-Ca o ilustrare, în graful fluture dat mai sus, \(v = 5\), \(e = 6\) și \(f = 3\). În general, dacă proprietatea este valida 
+Ca o ilustrare, în graful fluture dat mai sus,(figura \ref{fig:fluture}) \(v = 5\), \(e = 6\) și \(f = 3\). În general, dacă proprietatea este valida 
 pentru toate grafurile planare cu \(f\) fețe, orice modificare a grafului care ar crea o față suplimentară, graful 
 fiind în continuare planar ar fi și \(v - e + f\) invariant. Din moment ce proprietatea este valid pentru toate grafurile 
 cu \(f = 2\), prin inducție matematică este valabilă pentru toate cazurile. Formula lui Euler poate fi demonstrata și în 

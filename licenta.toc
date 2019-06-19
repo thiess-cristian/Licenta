@@ -1,37 +1,47 @@
-\contentsline {section}{\numberline {1}Introducere}{3}% 
-\contentsline {section}{\numberline {2}Istorie}{4}% 
-\contentsline {section}{\numberline {3}Setul de date}{5}% 
-\contentsline {section}{\numberline {4}XML}{6}% 
-\contentsline {subsection}{\numberline {4.1}Aspecte}{6}% 
-\contentsline {subsection}{\numberline {4.2}Terminologie}{7}% 
-\contentsline {subsection}{\numberline {4.3}Aplicare}{8}% 
-\contentsline {section}{\numberline {5}Proiecția ortografică}{9}% 
-\contentsline {subsection}{\numberline {5.1}Aplicare}{10}% 
-\contentsline {section}{\numberline {6}Grafica turtle}{11}% 
-\contentsline {subsection}{\numberline {6.1}Aplicare}{11}% 
-\contentsline {section}{\numberline {7}Graf}{15}% 
-\contentsline {subsection}{\numberline {7.1}Multigraf}{16}% 
-\contentsline {subsection}{\numberline {7.2}Graf planar}{17}% 
-\contentsline {subsection}{\numberline {7.3}Aplicare}{19}% 
-\contentsline {section}{\numberline {8}Algortimi force-directed de desenare a grafurilor}{20}% 
-\contentsline {subsection}{\numberline {8.1}Aplicare}{21}% 
-\contentsline {subsection}{\numberline {8.2}Avantaje}{21}% 
-\contentsline {subsection}{\numberline {8.3}Dezavantaje}{22}% 
-\contentsline {subsection}{\numberline {8.4}Metode de desenare}{23}% 
-\contentsline {subsubsection}{\numberline {8.4.1}Metoda baricentrică}{23}% 
-\contentsline {subsubsection}{\numberline {8.4.2}Algoritmul Fruchterman–Reingold}{24}% 
-\contentsline {section}{\numberline {9}Tehnologii folosite}{26}% 
-\contentsline {subsection}{\numberline {9.1}C++}{26}% 
-\contentsline {subsection}{\numberline {9.2}Qt}{26}% 
-\contentsline {subsubsection}{\numberline {9.2.1}Graphics view framework}{28}% 
-\contentsline {subsection}{\numberline {9.3}Aplicare}{31}% 
-\contentsline {section}{\numberline {10}Simcenter}{32}% 
-\contentsline {section}{\numberline {11}Functionalități}{37}% 
-\contentsline {section}{\numberline {12}Anexa}{47}% 
-\contentsline {subsection}{\numberline {12.1}XML}{47}% 
-\contentsline {subsubsection}{\numberline {12.1.1}Motion body}{47}% 
-\contentsline {subsubsection}{\numberline {12.1.2}Joint}{47}% 
-\contentsline {subsubsection}{\numberline {12.1.3}Connector}{48}% 
-\contentsline {subsection}{\numberline {12.2}Turtle graphics}{49}% 
-\contentsline {subsubsection}{\numberline {12.2.1}Desenarea unui cilindru}{49}% 
-\contentsline {section}{\numberline {13}Bibliografie}{51}% 
+\contentsline {section}{\numberline {1}Cuvinte cheie}{3}{section.1}% 
+\contentsline {section}{\numberline {2}Introducere}{4}{section.2}% 
+\contentsline {section}{\numberline {3}Informații preliminarii}{5}{section.3}% 
+\contentsline {section}{\numberline {4}Graf}{6}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Multigraf}{7}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Graf planar}{8}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Aplicare}{10}{subsection.4.3}% 
+\contentsline {section}{\numberline {5}Algortimi force-directed de desenare a grafurilor}{12}{section.5}% 
+\contentsline {subsection}{\numberline {5.1}Aplicare}{13}{subsection.5.1}% 
+\contentsline {subsection}{\numberline {5.2}Avantaje}{13}{subsection.5.2}% 
+\contentsline {subsection}{\numberline {5.3}Dezavantaje}{14}{subsection.5.3}% 
+\contentsline {subsection}{\numberline {5.4}Metode de desenare}{15}{subsection.5.4}% 
+\contentsline {subsubsection}{\numberline {5.4.1}Metoda baricentrică}{15}{subsubsection.5.4.1}% 
+\contentsline {subsubsection}{\numberline {5.4.2}Algoritmul Fruchterman–Reingold}{16}{subsubsection.5.4.2}% 
+\contentsline {section}{\numberline {6}Proiecția ortografică}{18}{section.6}% 
+\contentsline {subsection}{\numberline {6.1}Aplicare}{19}{subsection.6.1}% 
+\contentsline {section}{\numberline {7}Tehnologii și limbaje folosite}{20}{section.7}% 
+\contentsline {subsection}{\numberline {7.1}C++}{20}{subsection.7.1}% 
+\contentsline {subsection}{\numberline {7.2}Qt}{21}{subsection.7.2}% 
+\contentsline {subsubsection}{\numberline {7.2.1}Graphics view framework}{22}{subsubsection.7.2.1}% 
+\contentsline {subsection}{\numberline {7.3}Aplicare}{25}{subsection.7.3}% 
+\contentsline {section}{\numberline {8}Grafica turtle}{26}{section.8}% 
+\contentsline {subsection}{\numberline {8.1}Aplicare}{26}{subsection.8.1}% 
+\contentsline {section}{\numberline {9}Setul de date}{30}{section.9}% 
+\contentsline {subsection}{\numberline {9.1}XML}{30}{subsection.9.1}% 
+\contentsline {subsection}{\numberline {9.2}Aspecte}{30}{subsection.9.2}% 
+\contentsline {subsection}{\numberline {9.3}Terminologie specifică XML}{31}{subsection.9.3}% 
+\contentsline {subsection}{\numberline {9.4}Aplicare}{32}{subsection.9.4}% 
+\contentsline {section}{\numberline {10}Simcenter}{33}{section.10}% 
+\contentsline {section}{\numberline {11}Functionalități}{38}{section.11}% 
+\contentsline {subsection}{\numberline {11.1}Încarcarea fișierelor}{39}{subsection.11.1}% 
+\contentsline {subsection}{\numberline {11.2}Modificarea diagramei}{39}{subsection.11.2}% 
+\contentsline {subsection}{\numberline {11.3}Salvarea scenei modificate}{41}{subsection.11.3}% 
+\contentsline {subsection}{\numberline {11.4}Afisarea sub forma unei perspective ortografice}{42}{subsection.11.4}% 
+\contentsline {subsection}{\numberline {11.5}Afișarea sub forma de graf}{43}{subsection.11.5}% 
+\contentsline {subsection}{\numberline {11.6}Căutarea elementelor}{44}{subsection.11.6}% 
+\contentsline {subsection}{\numberline {11.7}Compararea modelelor}{45}{subsection.11.7}% 
+\contentsline {subsection}{\numberline {11.8}Informații adiționale}{46}{subsection.11.8}% 
+\contentsline {subsection}{\numberline {11.9}Legenda}{47}{subsection.11.9}% 
+\contentsline {section}{\numberline {12}Anexa}{49}{section.12}% 
+\contentsline {subsection}{\numberline {12.1}XML}{49}{subsection.12.1}% 
+\contentsline {subsubsection}{\numberline {12.1.1}Motion body}{49}{subsubsection.12.1.1}% 
+\contentsline {subsubsection}{\numberline {12.1.2}Joint}{49}{subsubsection.12.1.2}% 
+\contentsline {subsubsection}{\numberline {12.1.3}Connector}{50}{subsubsection.12.1.3}% 
+\contentsline {subsection}{\numberline {12.2}Turtle graphics}{51}{subsection.12.2}% 
+\contentsline {subsubsection}{\numberline {12.2.1}Desenarea unui cilindru}{51}{subsubsection.12.2.1}% 
+\contentsline {section}{\numberline {13}Bibliografie}{53}{section.13}% 

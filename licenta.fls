@@ -93,9 +93,47 @@ INPUT D:\pograml files\miktex\tex\latex\caption\caption.sty
 INPUT D:\pograml files\miktex\tex\latex\caption\caption.sty
 INPUT D:\pograml files\miktex\tex\latex\caption\caption3.sty
 INPUT D:\pograml files\miktex\tex\latex\caption\caption3.sty
+INPUT D:\pograml files\miktex\tex\latex\url\url.sty
+INPUT D:\pograml files\miktex\tex\latex\url\url.sty
+INPUT D:\pograml files\miktex\tex\latex\hyperref\hyperref.sty
+INPUT D:\pograml files\miktex\tex\latex\hyperref\hyperref.sty
+INPUT D:\pograml files\miktex\tex\generic\oberdiek\hobsub-hyperref.sty
+INPUT D:\pograml files\miktex\tex\generic\oberdiek\hobsub-hyperref.sty
+INPUT D:\pograml files\miktex\tex\generic\oberdiek\hobsub-hyperref.sty
+INPUT D:\pograml files\miktex\tex\generic\oberdiek\hobsub-generic.sty
+INPUT D:\pograml files\miktex\tex\generic\oberdiek\hobsub-generic.sty
+INPUT D:\pograml files\miktex\tex\generic\ifxetex\ifxetex.sty
+INPUT D:\pograml files\miktex\tex\generic\ifxetex\ifxetex.sty
+INPUT D:\pograml files\miktex\tex\latex\oberdiek\auxhook.sty
+INPUT D:\pograml files\miktex\tex\latex\oberdiek\auxhook.sty
+INPUT D:\pograml files\miktex\tex\latex\oberdiek\kvoptions.sty
+INPUT D:\pograml files\miktex\tex\latex\oberdiek\kvoptions.sty
+INPUT D:\pograml files\miktex\tex\latex\hyperref\pd1enc.def
+INPUT D:\pograml files\miktex\tex\latex\hyperref\pd1enc.def
+INPUT D:\pograml files\miktex\tex\latex\00miktex\hyperref.cfg
+INPUT D:\pograml files\miktex\tex\latex\00miktex\hyperref.cfg
+INPUT D:\pograml files\miktex\fonts\tfm\adobe\zapfding\pzdr.tfm
+INPUT D:\pograml files\miktex\tex\latex\hyperref\hxetex.def
+INPUT D:\pograml files\miktex\tex\latex\hyperref\hxetex.def
+INPUT D:\pograml files\miktex\tex\latex\hyperref\puenc.def
+INPUT D:\pograml files\miktex\tex\latex\hyperref\puenc.def
+INPUT D:\pograml files\miktex\tex\generic\oberdiek\stringenc.sty
+INPUT D:\pograml files\miktex\tex\generic\oberdiek\stringenc.sty
+INPUT D:\pograml files\miktex\tex\latex\oberdiek\rerunfilecheck.sty
+INPUT D:\pograml files\miktex\tex\latex\oberdiek\rerunfilecheck.sty
 INPUT licenta.aux
 INPUT licenta.aux
 OUTPUT licenta.aux
+INPUT D:\pograml files\miktex\tex\latex\hyperref\nameref.sty
+INPUT D:\pograml files\miktex\tex\latex\hyperref\nameref.sty
+INPUT D:\pograml files\miktex\tex\generic\oberdiek\gettitlestring.sty
+INPUT D:\pograml files\miktex\tex\generic\oberdiek\gettitlestring.sty
+INPUT licenta.out
+INPUT licenta.out
+INPUT licenta.out
+INPUT licenta.out
+INPUT .\licenta.out
+OUTPUT licenta.out
 INPUT licenta.toc
 INPUT licenta.toc
 INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmmi12.tfm
@@ -110,43 +148,50 @@ INPUT D:\pograml files\miktex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmr12.tfm
 INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmr8.tfm
 INPUT D:\pograml files\miktex\fonts\tfm\public\cm\cmr6.tfm
+INPUT D:\pograml files\miktex\tex\generic\oberdiek\se-ascii-print.def
+INPUT D:\pograml files\miktex\tex\generic\oberdiek\se-ascii-print.def
+INPUT D:\pograml files\miktex\tex\generic\oberdiek\se-ascii-print.def
 OUTPUT licenta.xdv
 OUTPUT licenta.toc
 INPUT capitole\coperta.tex
 INPUT capitole\coperta.tex
+INPUT capitole\cuvinte_cheie.tex
+INPUT capitole\cuvinte_cheie.tex
 INPUT capitole\abstract.tex
 INPUT capitole\abstract.tex
 INPUT capitole\istorie.tex
 INPUT capitole\istorie.tex
 INPUT imagini\istorie\bridge.png
-INPUT capitole\data.tex
-INPUT capitole\data.tex
-INPUT capitole\xml.tex
-INPUT capitole\xml.tex
-INPUT capitole\proiectie_ortografica.tex
-INPUT capitole\proiectie_ortografica.tex
-INPUT imagini\proiectie\ortografica.png
-INPUT capitole\turtle_graphics.tex
-INPUT capitole\turtle_graphics.tex
-INPUT D:\pograml files\miktex\tex\latex\listings\lstlang1.sty
-INPUT D:\pograml files\miktex\tex\latex\listings\lstlang1.sty
-INPUT D:\pograml files\miktex\tex\latex\listings\lstlang1.sty
-INPUT D:\pograml files\miktex\tex\latex\listings\lstlang1.sty
-INPUT D:\pograml files\miktex\tex\latex\listings\lstmisc.sty
-INPUT D:\pograml files\miktex\tex\latex\listings\lstmisc.sty
 INPUT D:\pograml files\miktex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT D:\pograml files\miktex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT imagini\turtle\circle.png
-INPUT imagini\turtle\joints.png
-INPUT imagini\turtle\connectors.png
 INPUT capitole\graf.tex
 INPUT capitole\graf.tex
 INPUT imagini\graf\notplanar.png
 INPUT imagini\graf\butterfly.png
 INPUT capitole\force_directed.tex
 INPUT capitole\force_directed.tex
+INPUT capitole\proiectie_ortografica.tex
+INPUT capitole\proiectie_ortografica.tex
+INPUT imagini\proiectie\ortografica.png
 INPUT capitole\tehnologii.tex
 INPUT capitole\tehnologii.tex
+INPUT D:\pograml files\miktex\tex\latex\listings\lstlang1.sty
+INPUT D:\pograml files\miktex\tex\latex\listings\lstlang1.sty
+INPUT D:\pograml files\miktex\tex\latex\listings\lstlang1.sty
+INPUT D:\pograml files\miktex\tex\latex\listings\lstlang1.sty
+INPUT D:\pograml files\miktex\tex\latex\listings\lstmisc.sty
+INPUT D:\pograml files\miktex\tex\latex\listings\lstmisc.sty
+INPUT capitole\turtle_graphics.tex
+INPUT capitole\turtle_graphics.tex
+INPUT imagini\turtle\circle.png
+INPUT imagini\turtle\joints.png
+INPUT imagini\turtle\connectors.png
+INPUT capitole\xml.tex
+INPUT capitole\xml.tex
+INPUT D:\pograml files\miktex\tex\latex\listings\lstlang1.sty
+INPUT D:\pograml files\miktex\tex\latex\listings\lstlang1.sty
+INPUT D:\pograml files\miktex\tex\latex\listings\lstmisc.sty
+INPUT D:\pograml files\miktex\tex\latex\listings\lstmisc.sty
 INPUT capitole\simcenter.tex
 INPUT capitole\simcenter.tex
 INPUT imagini\simcenter\cinematica.png
@@ -156,20 +201,17 @@ INPUT imagini\simcenter\body.png
 INPUT capitole\functionalitati.tex
 INPUT capitole\functionalitati.tex
 INPUT imagini\implementare\tabs.png
+INPUT imagini\implementare\bigmodel.png
+INPUT imagini\implementare\bigmodelzoom.png
 INPUT imagini\implementare\overlapping.png
 INPUT imagini\implementare\graf.png
 INPUT imagini\implementare\searchwindow.png
-INPUT imagini\implementare\info.png
 INPUT imagini\implementare\compare.png
+INPUT imagini\implementare\info.png
 INPUT imagini\implementare\legend.png
-INPUT imagini\implementare\bigmodel.png
-INPUT imagini\implementare\bigmodelzoom.png
 INPUT capitole\anexa.tex
 INPUT capitole\anexa.tex
-INPUT D:\pograml files\miktex\tex\latex\listings\lstlang1.sty
-INPUT D:\pograml files\miktex\tex\latex\listings\lstlang1.sty
-INPUT D:\pograml files\miktex\tex\latex\listings\lstmisc.sty
-INPUT D:\pograml files\miktex\tex\latex\listings\lstmisc.sty
 INPUT capitole\bibliografie.tex
 INPUT capitole\bibliografie.tex
 INPUT licenta.aux
+INPUT .\licenta.out

@@ -1,6 +1,11 @@
 \newpage
-\section{XML}
+\section{Setul de date}
 
+Setul de date este un fișier cu extensia .mdef dar care structura identica cu cea de XML. Mdef provine de la "motion definition file", fisierul conținând
+date precum submecanisme, elementele care compun întregul model, legăturile dintre ele și modul cum interacționează în intregul sistem. (anexa 12.1) In aplicația dezvoltată sunt evidențiate
+aceste date, scopul aplicației fiind de a ușura înțelegerea modelului de către utilizator fără a fi nevoit sa citească direct fișierul .mdef de bază.
+
+\subsection{XML}
 Extensible Markup Language (XML) este un meta-limbaj de marcare care definește un set de reguli de scriere astfel în cat sa poată fi citit și de oameni dar și de calculator într-un mod eficient. X-ul din XML vine de la eXtensibil, ceea ce înseamnă ca acest limbaj poate fi adaptat și proiectat în funcție de nevoia utilizatorului. Trebuie remarcat faptul ca, în ciuda numelui sau XML în sine nu este un limbaj de marcare, este un set de reguli prin care utilizatorul își poate dezvolta propriul limbaj.
 
 XML este un standard aprobat de W3C pentru documentele de marcare. Acesta oferă o
@@ -16,13 +21,17 @@ Astfel se pot crea un număr nelimitat de limbaje pentru a satisface o anumita n
 
 \item Meta-date
 
-Meta-datele se refera la “date care descriu date”. 
+Meta-datele se refera la "date care descriu date". 
 Acest lucru este esențial deoarece degeaba avem date dacă nu știm cum sa le interpretam. 
 XML are o metoda standard și sintaxa pentru a expune atât datele cat și meta-datele. 
-De exemplu  pentru <country>Romania</country>, “country” reprezinta mete-data, iar “Romania” este data în sine. 
-Astfel putem aveam mai multe date atribuite aceleiași meta-date: 
-\newline<country>Romania</country>
-\newline<country>France</country>
+De exemplu pentru \verb|<country>Romania</country>|, “country” reprezinta mete-data, iar “Romania” este data în sine. 
+Astfel putem aveam mai multe date atribuite aceleiași meta-date:
+
+\lstset{language=XML}
+\begin{lstlisting} 
+<country>Romania</country>
+<country>France</country>
+\end{lstlisting}
 
 \item Portabilitate
 
@@ -44,26 +53,26 @@ Definirea tipului de document (DTD) și schemele XML sunt instrumentele care aju
 proces.
 \end{enumerate}
 
-\subsection{Terminologie}
+\subsection{Terminologie specifică XML}
 
 \begin{enumerate}[wide=0pt, listparindent=1.25em, parsep=0pt]
     \item Caracter - un document XML este format din string-urui de caractere. Aproape orice caracter unicode poate apărea într-un document.
     \item Marcaj - documentul este împărțit în marcaje și conținut care pot fi observate după reguli sintactice. In general textul care formează în marcaj începe cu caracterul "<" și se termina cu ">". 
     \item Tag - reprezinta un marcaj si poate fi :
     \begin{itemize}
-        \item de inceput : <sectiune>
-        \item de sfarsit : </sectiune>
-        \item fara continut : <line-break/> 
+        \item de inceput : \verb|<sectiune>|
+        \item de sfarsit : \verb|</sectiune>|
+        \item fara continut : \verb|<line-break/>|
     \end{itemize}
     \item Element - este o componenta a documentului care începe cu un tag de început și se termina cu un tag de 
     sfârșit corespunzător. Datele intre tag-uri constituie conținutul elementul care poate cuprinde și alte elemente.\newline 
-    ex:<greeting>Hello, world!</greeting>
+    ex: \verb|<greeting>Hello, world!</greeting>|
     \item Atribut - un atribut consta într-o pereche de tip nume-valoare care se poate afla într-un tag de început sau 
     într-un tag fără conținut.\newline 
-    Un exemplu este <img src = "imagine.jpg"/>, unde numele atributului este "src" iar valoare 
-    este "imagine.jpg". Un atribut poate avea o singura valoare și poate apărea cel mult o data în tag-ul unui element. 
+    Un exemplu este \verb|<img src = "imagine.jpg"/>|, unde numele atributului este \verb|src| iar valoare 
+    este \verb|imagine.jpg|. Un atribut poate avea o singura valoare și poate apărea cel mult o data în tag-ul unui element. 
     \item XML prolog - Un prolog este linia inițiala într-un document XML. Conține de obicei versiunea de XML și tipul de encoding.\newline 
-    De exemplu: <?xml version="1.0" encoding="UTF-8">
+    De exemplu: \verb|<?xml version="1.0" encoding="UTF-8">|
     \item Arborele XML Structura unui document XML poate fi considera ca fiind un arbore. 
     Documentul începe cu o rădăcina și se ramifica în mai multe frunze. 
     Elementul rădăcina conține toate elementele documentului și nu are părinte, ca restul elementelor.

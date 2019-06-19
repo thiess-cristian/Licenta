@@ -1,9 +1,9 @@
 \newpage
 \section{Simcenter}
 
-CAE(Computer-aided engineering) este un termen pentru a definii un tip de aplicație folosită în domeniul ingineriei pentru
+CAE(Computer-aided engineering) este un termen care definește un tip de aplicație folosit în domeniul ingineriei. Aceste aplicații sunt folosite pentru
  a rezolva diferite probleme ce țin de arii științifice precum: analiza finita a elementelor (FEA), mecanica fluidelor numerică (CFD), 
- durabilitate materiialelor și optimizare. Acest tip de aplicație este folosit pentru a analiza rezistența și performanța anumitor componente 
+ durabilitatea materialelor și optimizare. Acest tip de aplicație este folosit pentru a analiza rezistența și performanța anumitor componente 
  sau ansambluri de componente, eficientizând timpul și materia necesara în întregul proces, in special datorita aspectului digital.
 Este folosit în multe domenii precum industria de auto-motive, aviație și aeronautica.\newline
 
@@ -12,7 +12,7 @@ Ariile acoperite de CAE sunt:
 \item analiza stresului anumitor componente folosind FEA
 \item analiza fluidelor prin CFD
 \item cinematica
-\item simularea formării unei componente prin turnarea, presarea materiialelor de construcție
+\item simularea formării unei componente prin turnarea sau presarea materiialelor de construcție
 \item optimizarea produsului 
 \item optimizarea procesului de creare
 \end{itemize}
@@ -43,16 +43,18 @@ legătură cu puncte de design critice, forțe, viteze, accelerații.\newline
 \begin{figure}[H]
     \begin{center}
         \includegraphics[scale=0.7]{imagini/simcenter/cinematica.png}
-        \caption{Model cinematic}
-        \label{fig:tabs}
+        \caption{Model cinematic \protect\footnotemark}
+        \label{fig:cinematic}
     \end{center}    
 \end{figure}
+
+\footnotetext{imagine preluată din \cite{cae2}}
 
 \newpage
 
 Într-o simulare dinamică:
 \begin{itemize}
-    \item sarcinile externe și forșele pot genera mișcare
+    \item sarcinile externe și forțele pot genera mișcare
     \item există bucșe pentru simularea legăturilor de supunere
     \item există efecte ce țin de forțe de frecare și contact 
     \item se poate rula o analiză de echilibru static în care toate forțele externe și interne sunt în echilibru
@@ -61,15 +63,17 @@ legătură cu puncte de design critice, forțe, viteze, accelerații.\newline
 \begin{figure}[H]
     \begin{center}
         \includegraphics[scale=0.7]{imagini/simcenter/dinamic.png}
-        \caption{Model dinamic}
-        \label{fig:tabs}
+        \caption{Model dinamic \protect\footnotemark}
+        \label{fig:dinamic}
     \end{center}    
 \end{figure}
+
+\footnotetext{imagine preluată din \cite{cae2}}
 
 In aplicație un mecanism se definește ca fiind un ansamblu de componente rigide care se mișcă coeziv. 
 Pentru a crea un mecanism este necesară:
 \begin{itemize}
-    \item specificarea corpurilor de mișcare și corpurilor statice
+    \item specificarea corpurilor de mișcare și a corpurilor statice
     \item constrângerea mișcării dintre corpuri, prin definirea mișcării unui corp în legătură cu celelalte corpuri. 
     Acestea se crează prin legături dintre corpurile de mișcare.
     \item setarea întregii mișcări ale mecanismului
@@ -78,10 +82,12 @@ Pentru a crea un mecanism este necesară:
 \begin{figure}[H]
     \begin{center}
         \includegraphics[scale=0.7]{imagini/simcenter/mecanism.png}
-        \caption{Model mecanism}
-        \label{fig:tabs}
+        \caption{Model mecanism \protect\footnotemark}
+        \label{fig:mecanism_simplu}
     \end{center}    
 \end{figure}
+
+\footnotetext{imagine preluată din \cite{cae2}}
 
 Corpurile de mișcare reprezintă elemente rigide în mecanism. Orice componentă din model ce se poate mișca trebuie 
 înclusa într-un corp de mișcare. Un corp de mișcare poate fi reprezentat fie printr-o componentă de asamblare fie 
@@ -92,14 +98,18 @@ ca apoi detaliile sa fie adăugate.\newline
 \begin{figure}[H]
     \begin{center}
         \includegraphics[scale=0.7]{imagini/simcenter/body.png}
-        \caption{Model mecanism}
-        \label{fig:tabs}
+        \caption{Model mecanism format din forme simple\protect\footnotemark}
+        \label{fig:mecanims_curbe}
     \end{center}    
 \end{figure}
 
+\footnotetext{imagine preluată din \cite{cae2}}
+
 Într-un mecanism un grad de libertate descrie cum un corp de mișcare se poate deplasa relativ la celelalte corpuri. 
 Toate gradele de libertate ale unui mecanism descriu toate mișcările independente posibile ale lui. Fară constrângeri 
-un corp dintr-un mecanism plutește în spațiu avand șase grade libertate: trei grade de translație (direcția X,  Y sau Z) 
-și trei grade de rotație (în jurul axelor X, Y, Z). O îmbinare ale corpurilor constrange unu sau mai multe grade libertate.\newline
+un corp dintr-un mecanism plutește în spațiu avand șase grade libertate: trei grade de translație (direcția X, Y sau Z) 
+și trei grade de rotație (în jurul axelor X, Y sau Z). O îmbinare ale corpurilor constrange unu sau mai multe grade libertate.\newline
 
 Mișcarea unui corp este definită ca fiind mișcarea lui relativa la un corp de baza de care este legat, sau la pământ dacă nu exista.\newline
+
+Aplicația creată are rolul de vizualiza relațiile dintre elementele prezente in model, ținănd cont de tipul lor și de tipul de legătura dintre ele.

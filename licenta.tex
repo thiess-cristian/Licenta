@@ -10,12 +10,18 @@
 \usepackage{indentfirst}
 \usepackage{gensymb}
 \usepackage{subfig}
+\usepackage{url}
+\usepackage[colorlinks=false]{hyperref}
+
+\makeatletter
+\g@addto@macro{\UrlBreaks}{\UrlOrds}
+\makeatother
 
 \algnewcommand\algorithmicforeach{\textbf{for each}}
 \algdef{S}[FOR]{ForEach}[1]{\algorithmicforeach\ #1\ \algorithmicdo}
 
 \setlength\parindent{2.5em}
-%\setlength\parskip{1.3\baselineskip} 
+%\setlength\parskip{0.5\baselineskip} 
 
 
 \begin{document}
@@ -26,15 +32,15 @@
 
 
 \input{capitole/coperta.tex}
+\input{capitole/cuvinte_cheie.tex}
 \input{capitole/abstract.tex}
 \input{capitole/istorie.tex}
-\input{capitole/data.tex}
-\input{capitole/xml.tex}
-\input{capitole/proiectie_ortografica.tex}
-\input{capitole/turtle_graphics.tex}
 \input{capitole/graf.tex}
 \input{capitole/force_directed.tex}
+\input{capitole/proiectie_ortografica.tex}
 \input{capitole/tehnologii.tex}
+\input{capitole/turtle_graphics.tex}
+\input{capitole/xml.tex}
 \input{capitole/simcenter.tex}
 \input{capitole/functionalitati.tex}
 \input{capitole/anexa.tex}

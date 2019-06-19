@@ -3,7 +3,7 @@
 
 \subsection{XML}
 \subsubsection{Motion body}
-Exemplu simplificat de element care reprezinta un corp de mișcare în fișierul .mdef:
+Exemplu simplificat de element care reprezintă un corp de mișcare în fișierul .mdef:
 \lstset{language=XML}
 \begin{lstlisting}
 <MotionBody Name="m1">
@@ -52,7 +52,7 @@ Exemplu simplificat de element care reprezintă o legătură între două corpur
 \end{lstlisting}
 
 \subsubsection{Connector}
-Exemplu de element conector dintre doua corpuri de miscare:
+Exemplu de element conector de tip arc dintre doua corpuri de miscare:
 
 \lstset{language=XML}
 \begin{lstlisting}
@@ -80,7 +80,7 @@ Exemplu de element conector dintre doua corpuri de miscare:
 </Spring>
 \end{lstlisting}
 
-Tag-urile Action si Base de la joint is connector arata corpurile de miscare legate.
+Tag-urile Action si Base de la elementul Joint și Connector arată corpurile de miscare legate.
 
 Toate elementele au o legătura strânsa iar buna funcționalitate a aplicației tine de structura fișierului.
 
@@ -97,8 +97,7 @@ void JointPainterPathCreator::drawRevolutePath(Turtle & turtle, double length) c
     //drawing first circle
     turtle.rotate(M_PI / 2);
     const int nrOfSegments = 32;
-    const double angle = 2 * M_PI / nrOfSegments;
-    //const double segmentLength = angle*radius;
+    const double angle = 2 * M_PI / nrOfSegments;    
     const double segmentLength = radius*sqrt(2.0 - 2.0*cos(angle));
 
     for (int i = 0; i < nrOfSegments; i++) {

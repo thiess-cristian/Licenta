@@ -1,5 +1,12 @@
 \newpage
-\section{Tehnologii folosite}
+\section{Tehnologii și limbaje folosite}
+
+Fiind o aplicație software am folosit limbajul de programare C++ împreuna cu libraria Qt pentru dezvoltare. Deoarece aplicația are la 
+bază date din exterior, anume fișiere .mdef care pot conține multe elemente diferite, C++ este este eficient pentru procesarea lor
+dar și pentru anumiți algoritmi în spatele vizualizării datelor\footnote[1]{Algortimul de desenare force-directed necesită un numar considerabil de iterații.}.
+Limbajul C++ neavănd suport nativ pentru interfețe grafice, folosirea unei librarii grafice, Qt, s-a dovedit esențială. 
+Totodată Qt conține clase pentru lucrul cu fișiere cu structură de XML.
+
 \subsection{C++}
 
 C++ este un limbaj de programare creat de Bjarne Stroustrup ca o extensie a limbajului C, inițial fiind numit "C cu clase". 
@@ -84,9 +91,9 @@ iar scena conține elementele grafice compuse dintr-o varietate de forme geometr
     \end{itemize}
 
     Scena reprezinta un container pentru obiecte de tip \verb|QGraphicsScene|. Elementele sunt adăugate prin funcția 
-    \verb|QGraphicsScene::addItem()|, iar apoi pot fi accesate folosind una din multele funcții de returnare.Functia 
-    \verb|QGraphicsScene::items()| și supraincarcariile ei, returnează toate elementele grafice care se intersectează sau 
-    care sunt conținute de un punct, un dreptunghi, un poligon sau un vector. \verb|QGraphicsScene::itemAt()| returnează elementul 
+    \verb|addItem()|, iar apoi pot fi accesate folosind una din multele funcții de returnare.Functia 
+    \verb|items()| și supraincarcariile ei, returnează toate elementele grafice care se intersectează sau 
+    care sunt conținute de un punct, un dreptunghi, un poligon sau un vector. \verb|itemAt()| returnează elementul 
     de la cel mai înalt nivel de suprapunere într-un anumit punct. Toate funcțiile returnează elementele într-o ordine 
     descendenta în legătura cu eventuale suprapuneri.\newline
 
@@ -102,10 +109,10 @@ iar scena conține elementele grafice compuse dintr-o varietate de forme geometr
     scena transmite mai departe evenimentul către toate elementele care se afla în acel punct.\newline
 
     Scena totodată poate controla starea elementelor, de exemplu dacă elementele sunt selectate, sau sunt în focus relativ cu 
-    evenimente de la tastatura. Mai multe elemente pot fi selectate folosind \verb|QGraphicsScene::setSelectionArea()|. 
-    Pentru a accesa toate elementele selectate se poate folosi \verb|QGraphicsScene::selectedItems()|. O alta stare tratata este cea 
-    de focus pe un anumit element. Se poate seta prin apelarea funcției \verb|QGraphicsScene::setFocusItem()| sau \verb|QGraphicsItem::setFocus()|, 
-    iar pentru a accesa elementul curent în focus \verb|QGraphicsScene::focusItem()|.\newline
+    evenimente de la tastatura. Mai multe elemente pot fi selectate folosind \verb|setSelectionArea()|. 
+    Pentru a accesa toate elementele selectate se poate folosi \verb|selectedItems()|. O alta stare tratata este cea 
+    de focus pe un anumit element. Se poate seta prin apelarea funcției \verb|setFocusItem()| sau \verb|setFocus()|, 
+    iar pentru a accesa elementul curent în focus \verb|focusItem()|.\newline
 
     \item View
     
@@ -125,9 +132,9 @@ iar scena conține elementele grafice compuse dintr-o varietate de forme geometr
     (făcând conversia la coordonatele scenei dacă este nevoie, deoarece în unele cazuri când scene este mai mare 
     decât fereastra view-ului, view-ul nu poate afișa toată scena, ci doar o porțiune).\newline
     
-    Folosind matricea de transformare, QGraphicsView::transform(), view-ul poate scala sau rotii scena. 
+    Folosind matricea de transformare, \verb|transform()|, view-ul poate scala sau rotii scena. 
     Pentru convenienta QGraphicsView oferă funcții pentru convertirea la, sau de la, coordonatele scenei la 
-    coordonatele view-ului. \verb|QGraphicsView::mapToScene()| si \verb|QGraphicsView::mapFromScene()|.\newline
+    coordonatele view-ului. \verb|mapToScene()| si \verb|mapFromScene()|.\newline
 
     \item Elementul
     

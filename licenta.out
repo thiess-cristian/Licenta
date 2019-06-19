@@ -1,0 +1,47 @@
+\BOOKMARK [1][-]{section.1}{Cuvinte\040cheie}{}% 1
+\BOOKMARK [1][-]{section.2}{Introducere}{}% 2
+\BOOKMARK [1][-]{section.3}{Informații preliminarii}{}% 3
+\BOOKMARK [1][-]{section.4}{Graf}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Multigraf}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{Graf\040planar}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.3}{Aplicare}{section.4}% 7
+\BOOKMARK [1][-]{section.5}{Algortimi\040force-directed\040de\040desenare\040a\040grafurilor}{}% 8
+\BOOKMARK [2][-]{subsection.5.1}{Aplicare}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.2}{Avantaje}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.3}{Dezavantaje}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.4}{Metode\040de\040desenare}{section.5}% 12
+\BOOKMARK [3][-]{subsubsection.5.4.1}{Metoda baricentrică}{subsection.5.4}% 13
+\BOOKMARK [3][-]{subsubsection.5.4.2}{Algoritmul Fruchterman–Reingold}{subsection.5.4}% 14
+\BOOKMARK [1][-]{section.6}{Proiecția ortografică}{}% 15
+\BOOKMARK [2][-]{subsection.6.1}{Aplicare}{section.6}% 16
+\BOOKMARK [1][-]{section.7}{Tehnologii și limbaje folosite}{}% 17
+\BOOKMARK [2][-]{subsection.7.1}{C++}{section.7}% 18
+\BOOKMARK [2][-]{subsection.7.2}{Qt}{section.7}% 19
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Graphics\040view\040framework}{subsection.7.2}% 20
+\BOOKMARK [2][-]{subsection.7.3}{Aplicare}{section.7}% 21
+\BOOKMARK [1][-]{section.8}{Grafica\040turtle}{}% 22
+\BOOKMARK [2][-]{subsection.8.1}{Aplicare}{section.8}% 23
+\BOOKMARK [1][-]{section.9}{Setul\040de\040date}{}% 24
+\BOOKMARK [2][-]{subsection.9.1}{XML}{section.9}% 25
+\BOOKMARK [2][-]{subsection.9.2}{Aspecte}{section.9}% 26
+\BOOKMARK [2][-]{subsection.9.3}{Terminologie specifică XML}{section.9}% 27
+\BOOKMARK [2][-]{subsection.9.4}{Aplicare}{section.9}% 28
+\BOOKMARK [1][-]{section.10}{Simcenter}{}% 29
+\BOOKMARK [1][-]{section.11}{Functionalități}{}% 30
+\BOOKMARK [2][-]{subsection.11.1}{Încarcarea fișierelor}{section.11}% 31
+\BOOKMARK [2][-]{subsection.11.2}{Modificarea\040diagramei}{section.11}% 32
+\BOOKMARK [2][-]{subsection.11.3}{Salvarea\040scenei\040modificate}{section.11}% 33
+\BOOKMARK [2][-]{subsection.11.4}{Afisarea\040sub\040forma\040unei\040perspective\040ortografice}{section.11}% 34
+\BOOKMARK [2][-]{subsection.11.5}{Afișarea sub forma de graf}{section.11}% 35
+\BOOKMARK [2][-]{subsection.11.6}{Căutarea elementelor}{section.11}% 36
+\BOOKMARK [2][-]{subsection.11.7}{Compararea\040modelelor}{section.11}% 37
+\BOOKMARK [2][-]{subsection.11.8}{Informații adiționale}{section.11}% 38
+\BOOKMARK [2][-]{subsection.11.9}{Legenda}{section.11}% 39
+\BOOKMARK [1][-]{section.12}{Anexa}{}% 40
+\BOOKMARK [2][-]{subsection.12.1}{XML}{section.12}% 41
+\BOOKMARK [3][-]{subsubsection.12.1.1}{Motion\040body}{subsection.12.1}% 42
+\BOOKMARK [3][-]{subsubsection.12.1.2}{Joint}{subsection.12.1}% 43
+\BOOKMARK [3][-]{subsubsection.12.1.3}{Connector}{subsection.12.1}% 44
+\BOOKMARK [2][-]{subsection.12.2}{Turtle\040graphics}{section.12}% 45
+\BOOKMARK [3][-]{subsubsection.12.2.1}{Desenarea\040unui\040cilindru}{subsection.12.2}% 46
+\BOOKMARK [1][-]{section.13}{Bibliografie}{}% 47
