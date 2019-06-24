@@ -2,7 +2,7 @@
 \section{Proiecția ortografică}
 
 Proiecția ortografica (sau proiecția ortogonala) este o modalitate de a reprezenta un model tridimensional  
-într-un spațiu bidimensional. Este o forma de proiecție paralela, în care toate liniile de proiecție sunt ortogonale 
+într-un spațiu bidimensional. Este o forma de proiecție paralelă, în care toate liniile de proiecție sunt ortogonale 
 cu planul de proiecție. (figura \ref{fig:proj})\newline
 
 Termenul ortografic este uneori rezervat în mod specific pentru reprezentări ale obiectelor în care axele principale 
@@ -10,7 +10,7 @@ sau planurile obiectului sunt de asemenea paralele cu planul de proiecție, dar 
 ca proiecții multiview. Mai mult, atunci când planurile sau axele principale ale unui obiect într-o proiecție 
 ortografică nu sunt paralele cu planul de proiecție, dar sunt înclinate mai degrabă pentru a descoperi mai 
 multe laturi ale obiectului, proiecția se numește o proiecție axonometrică. Subtipurile de proiecție multiview 
-includ planuri, elevații și secțiuni. Subtipurile de proiecții axonometrice includ proiecții izometrice, dimetrice și trimetrice. \newline
+includ planuri, elevații și secțiuni. Subtipurile de proiecții axonometrice includ proiecții izometrice, dimetrice și trimetrice. \cite{ortographic2}\newline
 
 \begin{figure}[H]
   \begin{center}
@@ -22,7 +22,7 @@ includ planuri, elevații și secțiuni. Subtipurile de proiecții axonometrice 
 
 \footnotetext{\url{https://www.kisspng.com/png-graphical-projection-orthographic-projection-multi-1362397/download-png.html}}
 
-O proiecte ortografica simpla, pe planul \(z=0\) poate fi definita de urmatoarea matrice:
+O proiecție ortografica simpla, pe planul \(z=0\) poate fi definită de urmatoarea matrice \cite{ortographic}:
 
 \[
 P=
@@ -58,9 +58,9 @@ P_v=
 \subsection{Aplicare}
 
 Acest concept a fost aplicat pentru reprezentarea elementelor care formeaza intregrul model 3D. 
-Setul de date nu contine dimensiunile exacte ale elementelor ci doar punctele de legare cu late elemente si centrul de greutate.
+Setul de date nu conține dimensiunile exacte ale elementelor ci doar punctele de legare cu late elemente și centrul de greutate.
 Prin calcularea punctelor simetrice ale punctelor de legare la centrul de greutate și prin incadrarea unui dreptunghi in jurul lor
-obtinem forma care v-a reprezenta elementul in sine.\newline 
+obtinem forma care v-a reprezenta elementul în sine.\newline 
 
 Aplicația conține trei moduri de afișare a modelului, fiecare perspectivă folosind coordonatele \((x,y,z)\) din setul de date 
 eliminand una din ele pentru reprezentarea in 2D:

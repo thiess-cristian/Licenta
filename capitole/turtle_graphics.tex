@@ -6,13 +6,13 @@ linii drepte într-un plan cartezian. Cursorul are trei atribute: o locație, o 
 Pixul are de asemenea, atribute: culoare, lățime și stare(desenare / inchis).\newline
 
 Cursorul se muta cu comenzi care sunt relative la poziția sa, cum ar fi "înainte 10 pixeli" și "rotiți cu 90 de grade". 
-Pixul purtat de cursor poate fi de asemenea controlat, având posibilitatea de a ii schimba culoarea sau lățimea.\newline
+Pixul purtat de cursor poate fi de asemenea controlat, având posibilitatea de a îi schimba culoarea sau lățimea.\newline
 
 Un sistem complet de grafica necesita un flux de control, proceduri si recursivitate. Din aceste metode se pot construi forme mai complexe, cum ar fi pătrate, triunghiuri, cercuri și alte figuri compuse. 
 Ideea de grafica turtle, de exemplu, este utilă într-un sistem Lindenmayer pentru generarea de fractali.\newline
 
 Geometria graficii turtle funcționează oarecum diferit față de geometria carteziană, 
-fiind bazată în primul rând pe noțiunea de vector (direcția relativă și distanța față de punctul de pornire).\newline
+fiind bazată în primul rând pe noțiunea de vector (direcția relativă și distanța față de punctul de pornire). \cite{turtle2}\newline
 
 \subsection{Aplicare}
 
@@ -31,7 +31,7 @@ fiind bazată în primul rând pe noțiunea de vector (direcția relativă și d
     };
 \end{lstlisting}
 
-De exemplu pentru a desena un triunghi echilateral cu lungimea laturilor de 100 de unitati.
+De exemplu pentru a desena un triunghi echilateral cu lungimea laturilor de 100 de unități.\cite{turtle}
 
 \lstset{language=C++}
 \begin{lstlisting}
@@ -44,11 +44,11 @@ De exemplu pentru a desena un triunghi echilateral cu lungimea laturilor de 100 
 
 Fiecare comanda schimba starea Turtle-ului si a traseului desenat. 
 Cele trei comenzi de forward desenează laturile triunghiului de lungime \(100\), adăugând latura la traseul total parcurs. 
-Comenzile de rotate schimba direcția de desenare cu \(60\)\degree \footnote{in exemplul pentru desenare am folosit \(PI\) ca reprezentand \(180\)\degree, astfel \(180\degree \div 3 = 60\degree\)}. 
-Dupa ultima comand de forward pixul se afla în punctul inițial de desenare, dar datorita lipsei unei comenzi rotate de \(60\)\degree, 
+Comenzile de \verb|rotate| schimba direcția de desenare cu \(60\)\degree \footnote{in exemplul pentru desenare am folosit \(PI\) ca reprezentand \(180\)\degree, astfel \(180\degree \div 3 = 60\degree\)}. 
+După ultima comandă de forward pixul se afla în punctul inițial de desenare, dar datorita lipsei unei comenzi \verb|rotate| de \(60\)\degree, 
 direcția de desenare este diferită de cea inițiala.\newline
 
-Folosind structuri repetitive putem abstractiza metoda de desenare. De exemplu pentru desenarea unui poligon regulat convex:
+Folosind structuri repetitive putem abstractiza metoda de desenare. De exemplu pentru desenarea unui poligon regulat convex\cite{turtle}:
 
 \begin{lstlisting}
     polygon(nrOfEdges){
@@ -59,7 +59,7 @@ Folosind structuri repetitive putem abstractiza metoda de desenare. De exemplu p
 \end{lstlisting}
 
 Pentru \verb|nrOfEdges=3| avem din nou un triunghi echilateral, pentru \verb|nrOfEdges=4| avem un pătrat, și asa mai departe. 
-Folosind un \verb|nrOfEdges| destul de mare, lungimea laturii scade si  putem ajunge la o forma care într-un spațiu discret 
+Folosind un \verb|nrOfEdges| destul de mare, lungimea laturii scade si putem ajunge la o forma care într-un spațiu discret 
 este similara cu un cerc.\newline 
 
 \begin{figure}[H]
@@ -85,11 +85,13 @@ formate din forme geometrice simple. (ex desenarea proiecției unui cilindru în
 \end{figure}
 
 
-Pentru imeplementarea mea a acestui concept am adaugat funcțiile \verb|save()| și \verb|load()| pentru a eficientiza procesul de desenare.
-Funcția save() salveaza starea curentă a clasei, și anume coordonatele x,y și direcția în acel moment. Astfel daca vrem să ne întoarcem 
-într-un punct precedent nu mai este nevoie sa facem pașii necesari sa ne întoarcem in acel punct, ci putem apela direct functia load().\newline
+Pentru implementarea mea a acestui concept am adaugat funcțiile \verb|save()| și \verb|load()| pentru a eficientiza procesul de desenare.
+Funcția \verb|save()| salvează starea curentă a clasei, și anume coordonatele x,y și direcția în acel moment. Astfel dacă vrem să ne întoarcem 
+într-un punct precedent nu mai este nevoie sa facem pașii necesari sa ne întoarcem in acel punct, ci putem apela direct funcția \verb|load()|.\newline
 
-Secventa de cod corespunzatoare implementării structurii de stare:
+\newpage
+
+Secvența de cod corespunzatoare implementării structurii de stare:
 
 \lstset{language=C++}
 \begin{lstlisting}
@@ -102,7 +104,7 @@ struct State
 };
 \end{lstlisting}
 
-Clasa adaptata:
+Clasa adaptată:
 
 \lstset{language=C++}
 \begin{lstlisting}

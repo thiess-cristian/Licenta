@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.6.5)  19 JUN 2019 13:00
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.6.5)  20 JUN 2019 11:49
 entering extended mode
 **d:/fac/licenta/licenta.tex
 (d:/fac/licenta/licenta.tex
@@ -441,7 +441,6 @@ File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
  ("D:\pograml files\miktex\tex/latex/00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 4393.
 Package hyperref Info: Hyper figures OFF on input line 4519.
 Package hyperref Info: Link nesting OFF on input line 4524.
 Package hyperref Info: Hyper index ON on input line 4527.
@@ -487,6 +486,18 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip61
 ) (licenta.aux
+
+LaTeX Warning: Label `fig:tabs' multiply defined.
+
+
+LaTeX Warning: Label `fig:tabs' multiply defined.
+
+
+LaTeX Warning: Label `fig:tabs' multiply defined.
+
+
+LaTeX Warning: Label `fig:tabs' multiply defined.
+
 
 LaTeX Warning: Label `fig:tabs' multiply defined.
 
@@ -651,7 +662,7 @@ LaTeX Info: Redefining \rmfamily on input line 29.
 
 
 LaTeX Font Warning: Font shape `TU/UTSans-Regular(0)/bx/n' undefined
-(Font)              using `TU/UTSans-Regular(0)/m/n' instead on input line 30.
+(Font)              using `TU/UTSans-Regular(0)/m/n' instead on input line 34.
 
 (licenta.toc ("D:\pograml files\miktex\tex/generic/oberdiek\se-ascii-print.def"
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
@@ -719,72 +730,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
  []
 
 
-Overfull \hbox (40.77396pt too wide) in paragraph at lines 19--23
-[]\TU/UTSans-Regular(0)/bx/n/12 Din punct de vedere matematic un graf G este un triplet ordonat $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 V\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 G\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; E\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 E\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  []\OT1/cmr/m/n/12 )$
+Overfull \hbox (44.94249pt too wide) in paragraph at lines 18--22
+[]\TU/UTSans-Regular(0)/bx/n/12 Din punct de vedere matematic un graf $\OML/cmm/m/it/12 G$ \TU/UTSans-Regular(0)/bx/n/12 este un triplet ordonat $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 V\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 G\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; E\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 E\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  []\OT1/cmr/m/n/12 )$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--26
+Underfull \hbox (badness 10000) in paragraph at lines 18--22
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 30--34
+Underfull \hbox (badness 10000) in paragraph at lines 29--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--48
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--50
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--87
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
@@ -794,32 +805,32 @@ File: imagini/graf/notplanar.png Graphic file (type bmp)
 File: imagini/graf/butterfly.png Graphic file (type bmp)
 <imagini/graf/butterfly.png>
  [9]
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
 [][][][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][] [] [][][][][][][][][] [] [][][][][][] [] [][][][] [] [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
 [][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][] [] [][][] [][] [][][][][][][][][] [][] [][][][][] [][] [][][][] [][] [][][][][] [][] [][][][] [][] [][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--131
+Underfull \hbox (badness 10000) in paragraph at lines 123--130
 
  []
 
 
-Overfull \hbox (19.93082pt too wide) in paragraph at lines 134--141
+Overfull \hbox (19.93082pt too wide) in paragraph at lines 133--140
 \TU/UTSans-Regular(0)/bx/n/12 sistem fizic, biologic, social sau informatic. Multe probleme practice pot fi reprezen-
  []
 
 
-Overfull \hbox (19.5268pt too wide) in paragraph at lines 134--141
+Overfull \hbox (19.5268pt too wide) in paragraph at lines 133--140
 \TU/UTSans-Regular(0)/bx/n/12 tate prin grafuri. In domeniul informaticii grafurile pot fi folosite pentru a reprezenta
  []
 
 
-Overfull \hbox (2.73882pt too wide) in paragraph at lines 134--141
+Overfull \hbox (2.73882pt too wide) in paragraph at lines 133--140
 \TU/UTSans-Regular(0)/bx/n/12 calcul, etc. De exemplu și un site web poate fi reprezentat printr-un graf, paginile
  []
 
@@ -833,14 +844,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--20
 
  []
 
-
-Overfull \hbox (1.02725pt too wide) in paragraph at lines 21--26
+File: imagini/force/force.png Graphic file (type bmp)
+<imagini/force/force.png>
+[12]
+Overfull \hbox (1.02725pt too wide) in paragraph at lines 29--34
 []\TU/UTSans-Regular(0)/bx/n/12 O forță similară cu cea a gravitații poate fi folosită pentru a atrage nodurile
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--26
-
  []
 
 
@@ -848,50 +856,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--34
 
  []
 
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 35--37
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
 
  []
 
 [13]
-Overfull \hbox (5.23611pt too wide) in paragraph at lines 76--80
+Overfull \hbox (5.23611pt too wide) in paragraph at lines 78--82
 \TU/UTSans-Regular(0)/bx/n/12 folosind o reprezentare baricentrică (prin care se seteaza un grup de noduri
  []
 
 
-Overfull \hbox (15.95213pt too wide) in paragraph at lines 76--80
+Overfull \hbox (15.95213pt too wide) in paragraph at lines 78--82
 \TU/UTSans-Regular(0)/bx/n/12 către Eades(1984), Fruchterman și Reingold (1991), Kamada și Kawai (1989). 
  []
 
-
-Overfull \hbox (8.49329pt too wide) in paragraph at lines 88--91
+[14]
+Overfull \hbox (8.49329pt too wide) in paragraph at lines 90--93
 \OML/cmm/m/it/12 O\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 n[]\OT1/cmr/m/n/12 )$\TU/UTSans-Regular(0)/bx/n/12 , unde $\OML/cmm/m/it/12 n$ \TU/UTSans-Regular(0)/bx/n/12 este numărul de noduri din graf. Acest lucru rezultă deoarece
  []
 
 
-Overfull \hbox (0.83212pt too wide) in paragraph at lines 94--101
+Overfull \hbox (0.83212pt too wide) in paragraph at lines 96--103
 \TU/UTSans-Regular(0)/bx/n/12 rezultată se poate afla într-un minim local al funcție ce trebuie optimizate,
  []
 
-[14]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 118.
+[15]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 120.
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
+Underfull \hbox (badness 10000) in paragraph at lines 121--124
 
  []
 
-[15]
-Overfull \hbox (3.4641pt too wide) in paragraph at lines 138--141
+
+Overfull \hbox (3.4641pt too wide) in paragraph at lines 140--143
 []\TU/UTSans-Regular(0)/bx/n/12 Algoritmul Fruchterman-Reingold de desenare a grafurilor introduce noți-
  []
 
 
-Overfull \hbox (3.26971pt too wide) in paragraph at lines 138--141
+Overfull \hbox (3.26971pt too wide) in paragraph at lines 140--143
 \TU/UTSans-Regular(0)/bx/n/12 scade la fiecare iterație pana la $\OT1/cmr/m/n/12 0$\TU/UTSans-Regular(0)/bx/n/12 . Temperatura controlează deplasarea nodurilor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--149
+Underfull \hbox (badness 10000) in paragraph at lines 146--151
 
  []
 
@@ -929,7 +942,7 @@ Overfull \hbox (17.23209pt too wide) in paragraph at lines 60--64
 
 
 Overfull \hbox (4.24011pt too wide) in paragraph at lines 60--64
-\TU/UTSans-Regular(0)/bx/n/12 intregrul model 3D. Setul de date nu contine dimensiunile exacte ale elementelor
+\TU/UTSans-Regular(0)/bx/n/12 intregrul model 3D. Setul de date nu conține dimensiunile exacte ale elementelor
  []
 
 
@@ -938,11 +951,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--64
  []
 
 ) (capitole/tehnologii.tex [19]
-Overfull \hbox (0.53076pt too wide) in paragraph at lines 4--9
-\TU/UTSans-Regular(0)/bx/n/12 vizualizării datelor[][][]. Limbajul C++ neavănd suport nativ pentru interfețe grafice,
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 12--16
 
  []
@@ -1014,8 +1022,8 @@ Overfull \hbox (64.80432pt too wide) in paragraph at lines 103--104
  []
 
 
-Overfull \hbox (6.35208pt too wide) in paragraph at lines 107--110
-[]\TU/UTSans-Regular(0)/bx/n/12 Arhitectura de propagare a evenimentelor a clasei QGraphicsScene asigura
+Overfull \hbox (10.96008pt too wide) in paragraph at lines 107--110
+[]\TU/UTSans-Regular(0)/bx/n/12 Arhitectura de propagare a evenimentelor a clasei [][]\TU/lmtt/m/n/12 QGraphicsScene []\TU/UTSans-Regular(0)/bx/n/12 asigura
  []
 
 
@@ -1043,12 +1051,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--116
 
  []
 
-
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 131--134
 
  []
 
-[23]
+
 Underfull \hbox (badness 10000) in paragraph at lines 135--138
 
  []
@@ -1093,7 +1101,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
-
+[24]
 Overfull \hbox (73.90813pt too wide) in paragraph at lines 161--163
 [][][]\TU/lmtt/m/n/12 QGraphicsItem []\TU/UTSans-Regular(0)/bx/n/12 suporta și detecție de coliziuni, prin funcțiile [][]\TU/lmtt/m/n/12 QGraphicsItem::shape()
  []
@@ -1103,7 +1111,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--163
 
  []
 
-[24]
+
 Underfull \hbox (badness 10000) in paragraph at lines 167--171
 
  []
@@ -1181,8 +1189,8 @@ File: imagini/turtle/joints.png Graphic file (type bmp)
 File: imagini/turtle/connectors.png Graphic file (type bmp)
 <imagini/turtle/connectors.png>
 
-Overfull \hbox (11.19612pt too wide) in paragraph at lines 88--91
-[]\TU/UTSans-Regular(0)/bx/n/12 Pentru imeplementarea mea a acestui concept am adaugat funcțiile [][]\TU/lmtt/m/n/12 save()
+Overfull \hbox (5.13611pt too wide) in paragraph at lines 88--91
+[]\TU/UTSans-Regular(0)/bx/n/12 Pentru implementarea mea a acestui concept am adaugat funcțiile [][]\TU/lmtt/m/n/12 save()
  []
 
 
@@ -1264,91 +1272,99 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--35
-
- []
-
+File: imagini/implementare/model.png Graphic file (type bmp)
+<imagini/implementare/model.png>
 [38]
-File: imagini/implementare/tabs.png Graphic file (type bmp)
-<imagini/implementare/tabs.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--55
-
- []
-
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 56--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
-
- []
-
-File: imagini/implementare/bigmodel.png Graphic file (type bmp)
-<imagini/implementare/bigmodel.png>
-File: imagini/implementare/bigmodelzoom.png Graphic file (type bmp)
-<imagini/implementare/bigmodelzoom.png>
-[40] [41]
-Underfull \hbox (badness 10000) in paragraph at lines 93--97
-
- []
-
-
-Overfull \hbox (4.65211pt too wide) in paragraph at lines 98--101
-[]\TU/UTSans-Regular(0)/bx/n/12 Această abordare este folositoare, din perspectiva utilizatorului, doar pen-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--101
+Underfull \hbox (badness 10000) in paragraph at lines 38--43
 
  []
 
 File: imagini/implementare/overlapping.png Graphic file (type bmp)
 <imagini/implementare/overlapping.png>
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 60--63
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--113
+Underfull \hbox (badness 10000) in paragraph at lines 65--69
+
+ []
+
+[40]
+File: imagini/implementare/overlappingzoom.png Graphic file (type bmp)
+<imagini/implementare/overlappingzoom.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+
+ []
+
+[41]
+File: imagini/implementare/viewmenu.png Graphic file (type bmp)
+<imagini/implementare/viewmenu.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--111
+
+ []
+
+
+Overfull \hbox (4.65211pt too wide) in paragraph at lines 112--115
+[]\TU/UTSans-Regular(0)/bx/n/12 Această abordare este folositoare, din perspectiva utilizatorului, doar pen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--115
 
  []
 
 [42]
-Underfull \hbox (badness 10000) in paragraph at lines 114--117
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 118--122
 
  []
 
-[43]
 File: imagini/implementare/graf.png Graphic file (type bmp)
 <imagini/implementare/graf.png>
+File: imagini/implementare/grafzoom.png Graphic file (type bmp)
+<imagini/implementare/grafzoom.png>
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 135--138
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--143
+
+ []
+
+[44]
 File: imagini/implementare/searchwindow.png Graphic file (type bmp)
 <imagini/implementare/searchwindow.png>
- [44]
-Underfull \hbox (badness 10000) in paragraph at lines 144--148
+File: imagini/implementare/searchscene.png Graphic file (type bmp)
+<imagini/implementare/searchscene.png>
+ [45]
+Underfull \hbox (badness 10000) in paragraph at lines 166--170
 
  []
 
+File: imagini/implementare/toolsmenu.png Graphic file (type bmp)
+<imagini/implementare/toolsmenu.png>
+[46]
 File: imagini/implementare/compare.png Graphic file (type bmp)
 <imagini/implementare/compare.png>
-[45]
+File: imagini/implementare/helpmenu.png Graphic file (type bmp)
+<imagini/implementare/helpmenu.png>
+ [47]
 File: imagini/implementare/info.png Graphic file (type bmp)
 <imagini/implementare/info.png>
- [46]
-Underfull \hbox (badness 10000) in paragraph at lines 172--175
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--213
 
  []
 
+[48]
 File: imagini/implementare/legend.png Graphic file (type bmp)
 <imagini/implementare/legend.png>
-) (capitole/anexa.tex [47] [48]
+) (capitole/anexa.tex [49]
 Overfull \hbox (85.20483pt too wide) in paragraph at lines 13--14
 [][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1378,7 +1394,7 @@ Overfull \hbox (78.00476pt too wide) in paragraph at lines 35--36
 [][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[49]
+[50]
 Overfull \hbox (85.20483pt too wide) in paragraph at lines 43--44
 [][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1423,40 +1439,35 @@ Overfull \hbox (78.00476pt too wide) in paragraph at lines 76--77
 [][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[50]
-Overfull \hbox (214.80615pt too wide) in paragraph at lines 90--91
-[][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (92.4049pt too wide) in paragraph at lines 101--103
+[51]
+Overfull \hbox (92.4049pt too wide) in paragraph at lines 105--107
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[51]) (capitole/bibliografie.tex [52]
+[52]) (capitole/bibliografie.tex [53]
 
 LaTeX Font Warning: Font shape `TU/UTSans-Regular(0)/m/it' undefined
-(Font)              using `TU/UTSans-Regular(0)/m/n' instead on input line 8.
+(Font)              using `TU/UTSans-Regular(0)/m/n' instead on input line 9.
 
-[53]
-Underfull \hbox (badness 10000) in paragraph at lines 79--82
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 97--100
 []\TU/UTSans-Regular(0)/m/it/12 Alexander Kolbasin, Oksana Husu. Computer-aided design and
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 79--82
+Underfull \hbox (badness 3108) in paragraph at lines 97--100
 \TU/UTSans-Regular(0)/m/it/12 Computer-aided engineering. Moscow State University of Civil Engi-
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
- [54]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
+ [55]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
  (licenta.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 49.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `licenta.out' has not changed.
-(rerunfilecheck)             Checksum: 626F025C3EB076A14A1542B33BAB09BE.
+(rerunfilecheck)             Checksum: A34BF009E8E9BDB268094812F74FFB2D.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1464,15 +1475,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 23957 strings out of 427669
- 444907 string characters out of 3150028
- 734064 words of memory out of 3000000
- 27808 multiletter control sequences out of 15000+200000
+ 23982 strings out of 427669
+ 445568 string characters out of 3150028
+ 734552 words of memory out of 3000000
+ 27827 multiletter control sequences out of 15000+200000
  536722 words of font info for 59 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 44i,9n,67p,556b,1869s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,9n,67p,584b,1869s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on licenta.xdv (54 pages, 699480 bytes).
+Output written on licenta.xdv (55 pages, 715680 bytes).

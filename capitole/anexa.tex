@@ -52,7 +52,7 @@ Exemplu simplificat de element care reprezintă o legătură între două corpur
 \end{lstlisting}
 
 \subsubsection{Connector}
-Exemplu de element conector de tip arc dintre doua corpuri de miscare:
+Exemplu de element Connector de tip arc (spring) dintre doua corpuri de miscare:
 
 \lstset{language=XML}
 \begin{lstlisting}
@@ -87,7 +87,11 @@ Toate elementele au o legătura strânsa iar buna funcționalitate a aplicației
 \subsection{Turtle graphics}
 \subsubsection{Desenarea unui cilindru}
 \begin{lstlisting}
-void JointPainterPathCreator::drawRevolutePath(Turtle & turtle, double length) const
+void JointPainterPathCreator::drawRevolutePath(
+    Turtle & turtle, 
+    double length
+    ) const
+    
     const double radius = 5;
 
     turtle.forward((length / 2) - radius);

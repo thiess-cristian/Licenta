@@ -6,7 +6,7 @@ date precum submecanisme, elementele care compun întregul model, legăturile di
 aceste date, scopul aplicației fiind de a ușura înțelegerea modelului de către utilizator fără a fi nevoit sa citească direct fișierul .mdef de bază.
 
 \subsection{XML}
-Extensible Markup Language (XML) este un meta-limbaj de marcare care definește un set de reguli de scriere astfel în cat sa poată fi citit și de oameni dar și de calculator într-un mod eficient. X-ul din XML vine de la eXtensibil, ceea ce înseamnă ca acest limbaj poate fi adaptat și proiectat în funcție de nevoia utilizatorului. Trebuie remarcat faptul ca, în ciuda numelui sau XML în sine nu este un limbaj de marcare, este un set de reguli prin care utilizatorul își poate dezvolta propriul limbaj.
+Extensible Markup Language (XML) este un meta-limbaj de marcare care definește un set de reguli de scriere astfel încât sa poată fi citit și de oameni dar și de calculator într-un mod eficient. X-ul din XML vine de la eXtensibil, ceea ce înseamnă ca acest limbaj poate fi adaptat și proiectat în funcție de nevoia utilizatorului. Trebuie remarcat faptul ca, în ciuda numelui său XML în sine nu este un limbaj de marcare, este un set de reguli prin care utilizatorul își poate dezvolta propriul limbaj.\cite{xml}
 
 XML este un standard aprobat de W3C pentru documentele de marcare. Acesta oferă o
 sintaxa generică folosită pentru a marca date din document cu tag-uri, într-un mod flexibil care poate fi adaptat pentru a satisface anumite cerințe din domeniul în care este aplicat.
@@ -24,8 +24,8 @@ Astfel se pot crea un număr nelimitat de limbaje pentru a satisface o anumita n
 Meta-datele se refera la "date care descriu date". 
 Acest lucru este esențial deoarece degeaba avem date dacă nu știm cum sa le interpretam. 
 XML are o metoda standard și sintaxa pentru a expune atât datele cat și meta-datele. 
-De exemplu pentru \verb|<country>Romania</country>|, “country” reprezinta mete-data, iar “Romania” este data în sine. 
-Astfel putem aveam mai multe date atribuite aceleiași meta-date:
+De exemplu pentru \verb|<country>Romania</country>|, “country” reprezintă mete-data, iar “Romania” este data în sine. 
+Astfel putem aveam mai multe date atribuite aceleiași meta-date \cite{xml2}:
 
 \lstset{language=XML}
 \begin{lstlisting} 
@@ -46,7 +46,7 @@ Chiar dacă XML este flexibil în definirea elementelor este strict în alte asp
 iar utilizatorii trebuie sa urmeze un set de reguli predefinite. 
 Aceste reguli restricționează modul în care un document este scris astfel încât sa nu exista ambiguitate în interpretarea numelor, 
 ordinii elementelor sau ierarhiei de elemente. Astfel se minimizează eventuale erori ce pot apărea și complexitatea textului, 
-iar parser-i de XML pot interpreta datele cu ușurința fără apariția de erori pe parcurs.\newline 
+iar cititorii de XML pot interpreta datele cu ușurință fără apariția de erori pe parcurs.\newline 
 
 Utilizatorii sunt, de asemenea, liberi să creeze reguli privind modul în care ar trebui să arate documentele.
 Definirea tipului de document (DTD) și schemele XML sunt instrumentele care ajută la acest
@@ -57,28 +57,30 @@ proces.
 
 \begin{enumerate}[wide=0pt, listparindent=1.25em, parsep=0pt]
     \item Caracter - un document XML este format din string-urui de caractere. Aproape orice caracter unicode poate apărea într-un document.
-    \item Marcaj - documentul este împărțit în marcaje și conținut care pot fi observate după reguli sintactice. In general textul care formează în marcaj începe cu caracterul "<" și se termina cu ">". 
-    \item Tag - reprezinta un marcaj si poate fi :
+    \item Marcaj - documentul este împărțit în marcaje și conținut care pot fi observate după reguli sintactice. În general textul care formează în marcaj începe cu caracterul "<" și se termina cu ">". 
+    \item Tag - reprezintă un marcaj și poate fi :
     \begin{itemize}
-        \item de inceput : \verb|<sectiune>|
-        \item de sfarsit : \verb|</sectiune>|
-        \item fara continut : \verb|<line-break/>|
+        \item de început : \verb|<sectiune>|
+        \item de sfârșit : \verb|</sectiune>|
+        \item fără conținut : \verb|<line-break/>|
     \end{itemize}
     \item Element - este o componenta a documentului care începe cu un tag de început și se termina cu un tag de 
     sfârșit corespunzător. Datele intre tag-uri constituie conținutul elementul care poate cuprinde și alte elemente.\newline 
     ex: \verb|<greeting>Hello, world!</greeting>|
-    \item Atribut - un atribut consta într-o pereche de tip nume-valoare care se poate afla într-un tag de început sau 
+    \item Atribut - un atribut constă într-o pereche de tip nume-valoare care se poate afla într-un tag de început sau 
     într-un tag fără conținut.\newline 
     Un exemplu este \verb|<img src = "imagine.jpg"/>|, unde numele atributului este \verb|src| iar valoare 
-    este \verb|imagine.jpg|. Un atribut poate avea o singura valoare și poate apărea cel mult o data în tag-ul unui element. 
+    este \verb|imagine.jpg|. Un atribut poate avea o singură valoare și poate apărea cel mult o data în tag-ul unui element. 
     \item XML prolog - Un prolog este linia inițiala într-un document XML. Conține de obicei versiunea de XML și tipul de encoding.\newline 
     De exemplu: \verb|<?xml version="1.0" encoding="UTF-8">|
     \item Arborele XML Structura unui document XML poate fi considera ca fiind un arbore. 
-    Documentul începe cu o rădăcina și se ramifica în mai multe frunze. 
-    Elementul rădăcina conține toate elementele documentului și nu are părinte, ca restul elementelor.
+    Documentul începe cu o rădăcină și se ramifică în mai multe frunze. 
+    Elementul rădăcină conține toate elementele documentului și nu are părinte, ca restul elementelor.
 \end{enumerate} 
 
-\subsection{Aplicare}
+\subsection{Utilizabilitate XML}
 Aplicația lucrează cu trei tipuri de elemente: Motion body, Joint, Connector. 
-Motion body-urile sunt obiecte care sunt conectate intre ele fie cu joint-uri fie cu connector-i. 
-Joint reprezinta un punct fix intre doi motion body, iar connector este o legătura.(?)
+Elementele Motion body sunt obiecte care sunt conectate intre ele fie cu elemente Joint fie cu elemente Connector. 
+Joint reprezinta un punct fix intre doua elemente Motion body, iar Connector este un element flexibil care face legătura dintre doua
+elemente de tip Motion body. Fișierul de baza .mdef conține toate informațiile necesare pentru a definii modul prin care interacționează
+aceste elemente. Buna funcționare a aplicației ține de structura documentului.

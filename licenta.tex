@@ -11,7 +11,7 @@
 \usepackage{gensymb}
 \usepackage{subfig}
 \usepackage{url}
-\usepackage[colorlinks=false]{hyperref}
+\usepackage[hidelinks]{hyperref}
 
 \makeatletter
 \g@addto@macro{\UrlBreaks}{\UrlOrds}
@@ -26,6 +26,10 @@
 
 \begin{document}
 \setmainfont[Ligatures=TeX]{UTSans-Regular}
+
+\renewcommand{\contentsname}{Cuprins}
+\renewcommand{\figurename}{Fig.}
+\renewcommand{\refname}{Referințe}
 
 \tableofcontents
 \newpage

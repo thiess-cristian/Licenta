@@ -1,10 +1,10 @@
 \newpage
 \section{Tehnologii și limbaje folosite}
 
-Fiind o aplicație software am folosit limbajul de programare C++ împreuna cu libraria Qt pentru dezvoltare. Deoarece aplicația are la 
+Fiind o aplicație software am folosit limbajul de programare C++ împreuna cu biblioteca Qt pentru dezvoltare. Deoarece aplicația are la 
 bază date din exterior, anume fișiere .mdef care pot conține multe elemente diferite, C++ este este eficient pentru procesarea lor
-dar și pentru anumiți algoritmi în spatele vizualizării datelor\footnote[1]{Algortimul de desenare force-directed necesită un numar considerabil de iterații.}.
-Limbajul C++ neavănd suport nativ pentru interfețe grafice, folosirea unei librarii grafice, Qt, s-a dovedit esențială. 
+dar și pentru anumiți algoritmi care se află în spatele vizualizării datelor\footnote{Algortimul de desenare force-directed necesită un numar considerabil de iterații.}.
+Limbajul C++ neavănd suport nativ pentru interfețe grafice, folosirea unei biblioteci grafice, Qt, s-a dovedit esențială. 
 Totodată Qt conține clase pentru lucrul cu fișiere cu structură de XML.
 
 \subsection{C++}
@@ -12,7 +12,7 @@ Totodată Qt conține clase pentru lucrul cu fișiere cu structură de XML.
 C++ este un limbaj de programare creat de Bjarne Stroustrup ca o extensie a limbajului C, inițial fiind numit "C cu clase". 
 Limbajul s-a extins semnificativ, C++ modern având caracteristici orientate pe obiect, de programare generica și funcțională 
 precum și accesul la manipularea memoriei. Este de obicei implementat ca limbaj compilat, iar mulți furnizori oferă 
-compilatoare C ++, inclusiv LME, LLVM, Microsoft, Intel și IBM, astfel încât limbajul sa poată fi compilat pe mai multe platforme.\newline 
+compilatoare C++, inclusiv LME, LLVM, Microsoft, Intel și IBM, astfel încât limbajul sa poată fi compilat pe mai multe platforme.\newline 
 
 A fost conceput cu o înclinare către programarea sistemelor și programarea embeded, pentru software limitat de resurse și sisteme mari, 
 punând în prim plan performanța, eficiența și flexibilitatea ca și caracteristici esențiale ale limbajului. C++ s-a dovedit 
@@ -22,31 +22,31 @@ C++ este standardizat de către Organizația Internațională pentru Standardiza
 publicată de ISO în decembrie 2017 ca ISO / IEC 14882: 2017 (informal cunoscut sub numele de C++17). Înainte de standardizarea 
 inițială din 1998, C++ a fost dezvoltat de Bjarne Stroustrup la Bell Labs din 1979, ca extensie a 
 limbajului C; el dorea un limbaj eficient și flexibil similar C, care să ofere și caracteristici de nivel înalt pentru organizarea 
-programelor.\newline
+programelor. \cite{cpp}\newline
 
 \subsection{Qt}
 
 Qt este un toolkit open-source și gratis folosit la crearea de interfețe grafice pentru aplicații cross-platform care 
-pot fi rulate pe diverse platforme hardware si software precum Linux, Windows, macOS, Adroid sau sisteme embeded, 
+pot fi rulate pe diverse platforme hardware și software precum Linux, Windows, macOS, Adroid sau sisteme embeded, 
 cu puține sau fară schimbari in codul de baza dar păstrând funcționalitățile native. Qt este momentan dezvoltat 
 de The Qt Company sub Qt Project prin guvernare open-source, în care sunt implicate mai multe organizații și dezvoltatori 
-individuali cu scopul de aduce noi funcționalități librăriei Qt.\newline
+individuali cu scopul de aduce noi funcționalități bibliotecii Qt.\newline
 
-Majoritatea programelor GUI dezvoltate cu Qt au o interfață nativa similara cu cea a sistemului pe care este rulat. 
+Majoritatea programelor GUI dezvoltate cu Qt au o interfață nativă similară cu cea a sistemului pe care este rulat. 
 Aplicații precum unelte ce pot fi rulate din linia de comandă sau console pentru servere, fără interfață grafica pot fi 
 dezvoltate în Qt. Un exemplu fiind framework-ul web Cutelyst.\newline
 
-Qt suportă diverse compilere precum GCC C++ și MSVC de la Visual Studio. Qt conține și Qt Quick, care include propriul 
-limbaj de scriptare numit QML, care a facilitat dezvoltarea rapida a aplicațiilor mobile păstrând opțiunea de a scrie 
-logică în C++ pentru cele mai bune rezultate în legătura cu performanta.\newline
+Qt suportă diverse compilatoare precum GCC C++ și MSVC de la Visual Studio. Qt conține și Qt Quick, care include propriul 
+limbaj de scriptare numit QML, care a facilitat dezvoltarea rapidă a aplicațiilor mobile păstrând opțiunea de a scrie 
+logică în C++ pentru cele mai bune rezultate în legătură cu performanța.\newline
 
-Alte funcționalități includ acces la baze de date prin SQL, cititor de XML, cititor de JSON, managementul thread-urilor.\newline
+Alte funcționalități includ acces la baze de date prin SQL, cititor de XML, cititor de JSON, managementul thread-urilor. \cite{qtwiki}\newline
 
 Qt este construit pe aceste concepte:
 \begin{itemize}
     \item Abstractizarea interfeței grafice
     
-    La început Qt folosea propriul engine de desenare pentru a emula aspectul diferitelor platforme de pe care rula. 
+    La început Qt folosea propriul motor de desenare pentru a emula aspectul diferitelor platforme de pe care rula. 
     Astfel doar câteva clase depindeau de platforma făcând portarea mult mai ușoară, însa emularea nu era mereu perfecta. 
     Versiunile mai noi de Qt folosesc API-uri native de pe platforma de rulare, pentru a rezolva problemele din trecut.
 
@@ -58,7 +58,7 @@ Qt este construit pe aceste concepte:
 
     \item Compilator de metaobiecte
 
-    Numit și moc, este o unealta care rulează pe codul unei aplicații Qt. Interpretează anumite macro-uri scrise în codul 
+    Numit și moc, este o unealtă care rulează pe codul unei aplicații Qt. Interpretează anumite macro-uri scrise în codul 
     sursa C++ și le folosește pentru a genera cod C++ cu ajutorul unor informații legate de clasele din aplicație. 
     Acest concept este folosit pentru a adăuga funcționalitati care nu sunt prezente nativ în limbajul C++: semnale și socluri, 
     introspecție, apelări asincrone de funcții.
@@ -72,13 +72,13 @@ Qt este construit pe aceste concepte:
 
 Graphics View pune la disoziție un mediu în care se pot controla și se poate interacționa cu un număr mare de elemente grafice 2D. 
 Framework-ul include și o arhitectura de propagarea a evenimentelor care facilitează interacțiunea cu elementele din scena. 
-Elementele suporta evenimente legate de taste, mișcarea mouse-ul, evenimente de dublu click, etc. \newline
+Elementele suportă evenimente legate de taste, mișcarea mouse-ul, evenimente de dublu click, etc. \newline
 
-Graphics View folosește un arbore BSP (Binary Space Partitioning) care oferă o accesare rapida la oricare element, astfel se poate 
+Graphics View folosește un arbore BSP (Binary Space Partitioning) care oferă o accesare rapidă la oricare element, astfel se poate 
 vizualiza și interacționa cu scene cu milioane de elemente grafice în timp real.\newline
 
-Graphics View furnizează o abordare bazate pe elemente a programării model-view. Mai multe view-uri pot observa o scena, 
-iar scena conține elementele grafice compuse dintr-o varietate de forme geometrice.\newline
+Graphics View furnizează o abordare bazată pe elemente a programării model-view. Mai multe view-uri pot observa o scena, 
+iar scena conține elementele grafice compuse dintr-o varietate de forme geometrice. \cite{qt}\newline
 
 \begin{itemize}
     \item Scena
@@ -90,12 +90,12 @@ iar scena conține elementele grafice compuse dintr-o varietate de forme geometr
         \item Setarea stării unui elemente, ex: selectie, focus.
     \end{itemize}
 
-    Scena reprezinta un container pentru obiecte de tip \verb|QGraphicsScene|. Elementele sunt adăugate prin funcția 
+    Scena reprezintă un container pentru obiecte de tip \verb|QGraphicsScene|. Elementele sunt adăugate prin funcția 
     \verb|addItem()|, iar apoi pot fi accesate folosind una din multele funcții de returnare.Functia 
     \verb|items()| și supraincarcariile ei, returnează toate elementele grafice care se intersectează sau 
     care sunt conținute de un punct, un dreptunghi, un poligon sau un vector. \verb|itemAt()| returnează elementul 
     de la cel mai înalt nivel de suprapunere într-un anumit punct. Toate funcțiile returnează elementele într-o ordine 
-    descendenta în legătura cu eventuale suprapuneri.\newline
+    descendentă în legătura cu eventuale suprapuneri.\cite{qt}\newline
 
     \begin{lstlisting}[language=C++]
     QGraphicsScene scene;
@@ -104,8 +104,8 @@ iar scena conține elementele grafice compuse dintr-o varietate de forme geometr
     QGraphicsItem *item = scene.itemAt(50, 50);
     \end{lstlisting}
 
-    Arhitectura de propagare a evenimentelor a clasei QGraphicsScene asigura transmiterea evenimentelor către 
-    elemente dar și propagarea evenimentelor intre ele. Daca scene primește un eveniment legat de mouse la o anumita poziție, 
+    Arhitectura de propagare a evenimentelor a clasei \verb|QGraphicsScene| asigura transmiterea evenimentelor către 
+    elemente dar și propagarea evenimentelor între ele. Dacă scene primește un eveniment legat de mouse la o anumita poziție, 
     scena transmite mai departe evenimentul către toate elementele care se afla în acel punct.\newline
 
     Scena totodată poate controla starea elementelor, de exemplu dacă elementele sunt selectate, sau sunt în focus relativ cu 
@@ -117,7 +117,7 @@ iar scena conține elementele grafice compuse dintr-o varietate de forme geometr
     \item View
     
     QGraphicsView furnizează un widget prin care se poate vizualiza conținutul unei scene. Se pot atasa mai multe view-uri la 
-    aceeași scena dacă este nevoie. 
+    aceeași scena dacă este nevoie. \cite{qt}
 
     \begin{lstlisting}[language=C++]
         QGraphicsScene scene;
@@ -128,13 +128,13 @@ iar scena conține elementele grafice compuse dintr-o varietate de forme geometr
 
     \end{lstlisting}
 
-    View-ul poate primii evenimente din exterior de la tastatura sau mouse și le trimite mai departe la scene 
+    View-ul poate primii evenimente din exterior de la tastatură sau mouse și le trimite mai departe la scene 
     (făcând conversia la coordonatele scenei dacă este nevoie, deoarece în unele cazuri când scene este mai mare 
     decât fereastra view-ului, view-ul nu poate afișa toată scena, ci doar o porțiune).\newline
     
     Folosind matricea de transformare, \verb|transform()|, view-ul poate scala sau rotii scena. 
-    Pentru convenienta QGraphicsView oferă funcții pentru convertirea la, sau de la, coordonatele scenei la 
-    coordonatele view-ului. \verb|mapToScene()| si \verb|mapFromScene()|.\newline
+    Pentru conveniență QGraphicsView oferă funcții pentru convertirea la, sau de la, coordonatele scenei la 
+    coordonatele view-ului. \verb|mapToScene()| și \verb|mapFromScene()|.\newline
 
     \item Elementul
     
@@ -143,10 +143,10 @@ iar scena conține elementele grafice compuse dintr-o varietate de forme geometr
     (\verb|QGraphicsTextItem|). De obicei utilizatorul specializează clasa de baza prin moștenire pentru a obține elemente 
     grafice de forme diferite.\newline
 
-    QGraphicsItem suporta următoarele functionalitati:
+    QGraphicsItem suportă următoarele functionalitati:
     \begin{itemize}
         \item evenimente de mouse (click, hover, scroll-wheel, etc.)
-        \item evenimente de tastatura
+        \item evenimente de tastatură
         \item evenimente meniu de context
         \item grupare, fie prin relație părinte-copil, fie prin clasa QGraphicsItemGroup
         \item detecție de coliziuni
